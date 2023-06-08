@@ -1,0 +1,729 @@
+{
+  "hash": "KZGqJQvq",
+  "name": "ATF Form for API functions 2",
+  "description": "This form is for testing setAnswer, init, isAsyncUploadInProgress, getAnswer, getAllAnswers, getCurrentFormState, getSummary, getAllTags, getFormObject, setContextVar, getContextVar, setOption, getOption, getAllOptions, serviceCall, clearForm and render API functions",
+  "tags": "test,test1,test2",
+  "company": "1367",
+  "version": "0.01",
+  "theme": "",
+  "themeViewUri": "",
+  "serviceUri": "",
+  "servicePackageId": "",
+  "serviceTemplateName": "",
+  "prefillServiceTemplateName": "",
+  "jsDependencies": "[]",
+  "data": {
+    "id": 514870,
+    "type": "questionnaire",
+    "name": "ATF Form for API functions 2",
+    "description": "This form is for testing setAnswer, init, isAsyncUploadInProgress, getAnswer, getAllAnswers, getCurrentFormState, getSummary, getAllTags, getFormObject, setContextVar, getContextVar, setOption, getOption, getAllOptions, serviceCall, clearForm and render API functions",
+    "successContent": {
+      "NL": "Success content NL",
+      "EN": "Success content EN"
+    },
+    "errorContent": {
+      "NL": "Error content NL",
+      "EN": "Error content EN"
+    },
+    "submitUrl": "",
+    "submitErrorUrl": "",
+    "tags": "test,test1,test2",
+    "backButton": {
+      "NL": ""
+    },
+    "nextButton": {
+      "NL": ""
+    },
+    "submitButton": {
+      "NL": ""
+    },
+    "locales": "NL,EN",
+    "defLocale": "NL",
+    "company": "ATF_Company",
+    "user": "ATF_Company_AdminAndUser",
+    "publishDate": "22-07-2022 12:37:16",
+    "publishVersion": "0.01",
+    "pages": [
+      {
+        "id": 514871,
+        "type": "section",
+        "label": {
+          "NL": "Page 1 label NL",
+          "EN": "Page 1 label EN"
+        },
+        "description": "",
+        "name": "Page 1 name",
+        "elementId": "",
+        "className": "",
+        "condScript": "",
+        "condJson": "",
+        "tags": "",
+        "backButton": {
+          "NL": ""
+        },
+        "nextButton": {
+          "NL": ""
+        },
+        "submitButton": {
+          "NL": ""
+        },
+        "submitUrl": "",
+        "submitErrorUrl": "",
+        "pageUrl": "",
+        "questions": [
+          {
+            "id": 514872,
+            "type": "question",
+            "label": {
+              "NL": "TextField NL",
+              "EN": "TextField EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "TextField",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "textfield",
+            "validScript": "",
+            "elementId": "TextField_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 514873,
+            "type": "question",
+            "label": {
+              "NL": "TextArea NL",
+              "EN": "TextArea EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "TextArea",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "textarea",
+            "validScript": "",
+            "elementId": "TextArea_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 514874,
+            "type": "question",
+            "label": {
+              "NL": "RadioButton NL",
+              "EN": "RadioButton EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "RadioButton",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "radio",
+            "validScript": "",
+            "elementId": "RadioButton_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": [
+              {
+                "id": 514875,
+                "type": "answeroption",
+                "label": {
+                  "NL": "radiobutton option 1 NL",
+                  "EN": "radiobutton option 1 EN"
+                },
+                "description": "",
+                "name": "radiobutton option 1",
+                "defaultValue": false,
+                "disabled": false,
+                "elementId": "radiobutton_option_1",
+                "className": "",
+                "condScript": "",
+                "condJson": "",
+                "tooltip": {
+                  "NL": ""
+                },
+                "questions": []
+              },
+              {
+                "id": 514876,
+                "type": "answeroption",
+                "label": {
+                  "NL": "radiobutton option 2 NL",
+                  "EN": "radiobutton option 2 EN"
+                },
+                "description": "",
+                "name": "radiobutton option 2",
+                "defaultValue": false,
+                "disabled": false,
+                "elementId": "radiobutton_option_2_id",
+                "className": "",
+                "condScript": "",
+                "condJson": "",
+                "tooltip": {
+                  "NL": ""
+                },
+                "questions": []
+              }
+            ]
+          },
+          {
+            "id": 514877,
+            "type": "question",
+            "label": {
+              "NL": "ATF_widget_API_2"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "ATF_widget_API_2",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "widget",
+            "validScript": "",
+            "elementId": "ATF_widget_API_2_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "summary no",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "ATF_widget_API_2",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 514878,
+            "type": "operator",
+            "label": {
+              "NL": "Repeater NL",
+              "EN": "Repeater EN"
+            },
+            "description": "",
+            "name": "Repeater",
+            "operatorType": "repeater",
+            "elementId": "Repeater_id",
+            "className": "",
+            "condScript": "",
+            "condJson": "",
+            "operatorButton": {
+              "NL": "Repeat button NL",
+              "EN": "Repeat button EN"
+            },
+            "operands": [
+              {
+                "id": 514879,
+                "type": "question",
+                "label": {
+                  "NL": "TextField in repeater NL",
+                  "EN": "TextField in repeater EN"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "TextField_repeater",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "textfield",
+                "validScript": "",
+                "elementId": "TextField_repeater_id",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              },
+              {
+                "id": 514880,
+                "type": "group",
+                "name": "Group",
+                "description": "",
+                "elementId": "Group_id",
+                "className": "",
+                "tags": "",
+                "children": [
+                  {
+                    "id": 514881,
+                    "type": "question",
+                    "label": {
+                      "NL": "Checkbox NL",
+                      "EN": "Checkbox EN"
+                    },
+                    "description": {
+                      "NL": ""
+                    },
+                    "name": "Checkbox",
+                    "subLabel": {
+                      "NL": ""
+                    },
+                    "inputType": "checkbox",
+                    "validScript": "",
+                    "elementId": "Checkbox_id",
+                    "className": "",
+                    "hint": {
+                      "NL": ""
+                    },
+                    "tooltip": {
+                      "NL": ""
+                    },
+                    "labelVariables": {
+                      "NL": ""
+                    },
+                    "tags": "",
+                    "defaultValue": {
+                      "NL": ""
+                    },
+                    "disabled": false,
+                    "minDate": "",
+                    "minDateType": "",
+                    "minDateOffset": "",
+                    "maxDate": "",
+                    "maxDateType": "",
+                    "maxDateOffset": "",
+                    "dateType": "calendar",
+                    "secured": false,
+                    "customTemplate": "",
+                    "varNames": "",
+                    "varValues": "{}",
+                    "mask": "",
+                    "validations": [],
+                    "deduceJson": "",
+                    "deduceScript": "",
+                    "unselectLabel": {
+                      "NL": ""
+                    },
+                    "options": [
+                      {
+                        "id": 514882,
+                        "type": "answeroption",
+                        "label": {
+                          "NL": "checkboxes option 1 NL",
+                          "EN": "checkboxes option 1 EN"
+                        },
+                        "description": "",
+                        "name": "checkboxes option 1",
+                        "defaultValue": false,
+                        "disabled": false,
+                        "elementId": "checkboxes_option_1_id",
+                        "className": "",
+                        "condScript": "",
+                        "condJson": "",
+                        "tooltip": {
+                          "NL": ""
+                        },
+                        "questions": []
+                      },
+                      {
+                        "id": 514883,
+                        "type": "answeroption",
+                        "label": {
+                          "NL": "checkboxes option 2 NL",
+                          "EN": "checkboxes option 2 EN"
+                        },
+                        "description": "",
+                        "name": "checkboxes option 2",
+                        "defaultValue": false,
+                        "disabled": false,
+                        "elementId": "checkboxes_option_2_id",
+                        "className": "",
+                        "condScript": "",
+                        "condJson": "",
+                        "tooltip": {
+                          "NL": ""
+                        },
+                        "questions": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 514884,
+            "type": "question",
+            "label": {
+              "NL": "TextField render no NL",
+              "EN": "TextField render no EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "textfield_render_no",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "textfield",
+            "validScript": "",
+            "elementId": "textfield_render_no_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "render no",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          }
+        ]
+      },
+      {
+        "id": 514885,
+        "type": "section",
+        "label": {
+          "NL": "Page 2 label NL",
+          "EN": "Page 2 label EN"
+        },
+        "description": "",
+        "name": "Page 2 name",
+        "elementId": "",
+        "className": "",
+        "condScript": "",
+        "condJson": "",
+        "tags": "",
+        "backButton": {
+          "NL": ""
+        },
+        "nextButton": {
+          "NL": ""
+        },
+        "submitButton": {
+          "NL": ""
+        },
+        "submitUrl": "",
+        "submitErrorUrl": "",
+        "pageUrl": "",
+        "questions": [
+          {
+            "id": 514886,
+            "type": "question",
+            "label": {
+              "NL": "AsyncUpload NL",
+              "EN": "AsyncUpload EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "AsyncUpload",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "asyncupload",
+            "validScript": "",
+            "elementId": "AsyncUpload_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 514887,
+            "type": "group",
+            "name": "Group with tag",
+            "description": "",
+            "elementId": "group_with_tag_id",
+            "className": "",
+            "tags": "summary no",
+            "children": [
+              {
+                "id": 514888,
+                "type": "question",
+                "label": {
+                  "NL": "TextField in group NL",
+                  "EN": "TextField in group EN"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "textfield_in_group",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "textfield",
+                "validScript": "",
+                "elementId": "textfield_in_group_id",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 514889,
+        "type": "section",
+        "label": {
+          "NL": "Page 3 label NL",
+          "EN": "Page 3 label EN"
+        },
+        "description": "",
+        "name": "Page 3 name",
+        "elementId": "",
+        "className": "",
+        "condScript": "",
+        "condJson": "",
+        "tags": "summary no",
+        "backButton": {
+          "NL": ""
+        },
+        "nextButton": {
+          "NL": ""
+        },
+        "submitButton": {
+          "NL": ""
+        },
+        "submitUrl": "",
+        "submitErrorUrl": "",
+        "pageUrl": "",
+        "questions": []
+      }
+    ],
+    "version": 0,
+    "token": "nalZ2arq"
+  }
+}
