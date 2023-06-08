@@ -1,0 +1,1225 @@
+{
+  "hash": "lZGqUHey",
+  "name": "ATF_Form_for_Packages",
+  "description": "this form is for creating packages",
+  "tags": "",
+  "company": "1367",
+  "version": "0.01",
+  "theme": "",
+  "themeViewUri": "",
+  "serviceUri": "",
+  "servicePackageId": "",
+  "serviceTemplateName": "",
+  "prefillServiceTemplateName": "",
+  "jsDependencies": "[]",
+  "data": {
+    "id": 492629,
+    "type": "questionnaire",
+    "name": "ATF_Form_for_Packages",
+    "description": "this form is for creating packages",
+    "successContent": {
+      "NL": "<span style=\"color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">Formulier succesvol zichtbaar</span>",
+      "EN": "<span style=\"color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">Form is successful visible</span>"
+    },
+    "errorContent": {
+      "NL": "<span style=\"color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">Het formulier kan niet zichtbaar</span>",
+      "EN": "<span style=\"color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">The form cannot be visible</span>"
+    },
+    "submitUrl": "",
+    "submitErrorUrl": "",
+    "tags": "",
+    "backButton": {
+      "NL": ""
+    },
+    "nextButton": {
+      "NL": ""
+    },
+    "submitButton": {
+      "NL": ""
+    },
+    "locales": "NL,EN",
+    "defLocale": "NL",
+    "company": "ATF_Company",
+    "user": "ATF_Company_AdminAndUser",
+    "publishDate": "22-07-2022 12:39:37",
+    "publishVersion": "0.01",
+    "pages": [
+      {
+        "id": 514979,
+        "type": "section",
+        "label": {
+          "NL": "page1_label NL",
+          "EN": "page1_label EN"
+        },
+        "description": "",
+        "name": "page1_name",
+        "elementId": "",
+        "className": "",
+        "condScript": "",
+        "condJson": "",
+        "tags": "",
+        "backButton": {
+          "NL": ""
+        },
+        "nextButton": {
+          "NL": ""
+        },
+        "submitButton": {
+          "NL": ""
+        },
+        "submitUrl": "",
+        "submitErrorUrl": "",
+        "pageUrl": "",
+        "questions": [
+          {
+            "id": 514980,
+            "type": "question",
+            "label": {
+              "NL": "Lable_TextField_Date NL",
+              "EN": "Lable_TextField_Date EN"
+            },
+            "description": {
+              "NL": "",
+              "EN": ""
+            },
+            "name": "TextField_Date",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "textfield",
+            "validScript": "",
+            "elementId": "TextField_Date_id",
+            "className": "TextField_Date_class",
+            "hint": {
+              "NL": "",
+              "EN": "25-05-2015"
+            },
+            "tooltip": {
+              "NL": "in this field you should insert the date value NL",
+              "EN": "in this field you should insert the date value EN"
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": {
+              "rule": "00-00-0000",
+              "options": ""
+            },
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 514981,
+            "type": "question",
+            "label": {
+              "NL": "Label_TextField_Phonenumber NL",
+              "EN": "Label_TextField_Phonenumber EN"
+            },
+            "description": {
+              "NL": "",
+              "EN": ""
+            },
+            "name": "TextField_Phonenumber",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "textfield",
+            "validScript": "",
+            "elementId": "TextField_Phonenumber_id",
+            "className": "TextField_Phonenumber_class",
+            "hint": {
+              "NL": "0123456789"
+            },
+            "tooltip": {
+              "NL": "in this field you should insert the phone number NL",
+              "EN": "in this field you should insert the phone number EN"
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": {
+              "rule": "0000000009",
+              "options": ""
+            },
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 514982,
+            "type": "question",
+            "label": {
+              "NL": "Label_TextField_CustomScript NL",
+              "EN": "Label_TextField_CustomScript EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "TextField_CustomScript",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "textfield",
+            "validScript": "if (!value ) { return [ERR_EMPTY:\"Dit veld is verplicht\"] }",
+            "elementId": "TextField_CustomScript_id",
+            "className": "TextField_CustomScript_class",
+            "hint": {
+              "NL": "to my mind... NL",
+              "EN": "to my mind... EN"
+            },
+            "tooltip": {
+              "NL": "in this field you should insert your personal opinion. This field is Required to fill. NL",
+              "EN": "in this field you should insert your personal opinion. This field is Required to fill. EN"
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 514983,
+            "type": "question",
+            "label": {
+              "NL": "Label_TextField_ValidationScript NL",
+              "EN": "Label_TextField_ValidationScript EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "TextField_ValidationScript",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "textfield",
+            "validScript": "",
+            "elementId": "TextField_ValidationScript_id",
+            "className": "TextField_ValidationScript_class",
+            "hint": {
+              "NL": "bbbbbbb@gmail.nl",
+              "EN": "bbbbbbb@gmail.en"
+            },
+            "tooltip": {
+              "NL": "in this field you should insert your Email. NL",
+              "EN": "in this field you should insert your Email. EN"
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{\"\":\"\"}",
+            "mask": "",
+            "validations": [
+              {
+                "args": "ValidationScript_Params",
+                "script": "emailPattern = /[_A-Za-z0-9-]+(.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(.[A-Za-z0-9-_]+)*(.[A-Za-z0-9-_]{2,6}+)$/\r\nemail = value \r\nif(email ==~ emailPattern){\r\n}\r\nelse{ return [ERR_MAIL_FORMAT:\"Uw email adres is niet geldig\"] }\r\n}"
+              }
+            ],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 514984,
+            "type": "question",
+            "label": {
+              "NL": "Label_DateField_Calendar NL",
+              "EN": "Label_DateField_Calendar EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField_Calendar",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "if (!value ) { return [ERR_EMPTY:\"Dit veld is verplicht\"] }",
+            "elementId": "DateField_Calendar_id",
+            "className": "DateField_Calendar_class",
+            "hint": {
+              "NL": "",
+              "EN": "25-08-2015"
+            },
+            "tooltip": {
+              "NL": "Please, choose the date of your visit. NL",
+              "EN": "Please, choose the date of your visit. EN"
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "11-09-2017",
+              "EN": ""
+            },
+            "disabled": false,
+            "minDate": "2017-09-01",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "2017-09-30",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 514985,
+            "type": "question",
+            "label": {
+              "NL": "Label_DateField_Dropdown NL",
+              "EN": "Label_DateField_Dropdown EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField_Dropdown",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_Dropdown_id",
+            "className": "DateField_Dropdown_class",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": "Please, choose the date of your visit. NL",
+              "EN": "Please, choose the date of your visit. EN"
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "11-09-2017",
+              "EN": ""
+            },
+            "disabled": false,
+            "minDate": "2017-09-01",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "2017-09-30",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "dropdowns",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 514986,
+            "type": "question",
+            "label": {
+              "NL": "Label_HiddenField NL",
+              "EN": "Label_HiddenField EN"
+            },
+            "description": {
+              "NL": "",
+              "EN": ""
+            },
+            "name": "HiddenField",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "hidden",
+            "validScript": "",
+            "elementId": "HiddenField_id",
+            "className": "HiddenField_class",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": "This field not a visible for client NL",
+              "EN": "This field not a visible for client EN"
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 514987,
+            "type": "question",
+            "label": {
+              "NL": "Label_TextLabel NL",
+              "EN": "Label_TextLabel EN"
+            },
+            "description": {
+              "NL": "<span style=\"color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 14px;\">This field is only for information, client can't write at that field NL</span>",
+              "EN": "<span style=\"color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 14px;\">This field is only for information, client can't write at that field EN</span>"
+            },
+            "name": "TextLabel",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "textlabel",
+            "validScript": "",
+            "elementId": "TextLabel_id",
+            "className": "TextLabel_class",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 514988,
+            "type": "question",
+            "label": {
+              "NL": "Label_RadioButtons NL",
+              "EN": "Label_RadioButtons EN"
+            },
+            "description": {
+              "NL": "",
+              "EN": ""
+            },
+            "name": "RadioButtons",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "radio",
+            "validScript": "",
+            "elementId": "RadioButtons_id",
+            "className": "RadioButtons_class",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": [
+              {
+                "id": 514989,
+                "type": "answeroption",
+                "label": {
+                  "NL": "Label_RadioButtonOption NL",
+                  "EN": "Label_RadioButtonOption EN"
+                },
+                "description": "",
+                "name": "RadioButtonOption",
+                "defaultValue": false,
+                "disabled": false,
+                "elementId": "RadioButtonOption_id",
+                "className": "RadioButtonOption_class",
+                "condScript": "",
+                "condJson": "",
+                "tooltip": {
+                  "NL": ""
+                },
+                "questions": []
+              },
+              {
+                "id": 514990,
+                "type": "answeroption",
+                "label": {
+                  "NL": "Label_RadioButton_Pre_Selected NL",
+                  "EN": "Label_RadioButton_Pre_Selected EN"
+                },
+                "description": "",
+                "name": "RadioButton_Pre_Selected",
+                "defaultValue": true,
+                "disabled": false,
+                "elementId": "RadioButton_Pre_Selected_id",
+                "className": "RadioButton_Pre_Selected_class",
+                "condScript": "",
+                "condJson": "",
+                "tooltip": {
+                  "NL": ""
+                },
+                "questions": []
+              },
+              {
+                "id": 514991,
+                "type": "answeroption",
+                "label": {
+                  "NL": "Label_RadioButton_Disabled NL",
+                  "EN": "Label_RadioButton_Disabled EN"
+                },
+                "description": "",
+                "name": "RadioButton_Disabled",
+                "defaultValue": false,
+                "disabled": true,
+                "elementId": "RadioButton_Disabled_id",
+                "className": "RadioButton_Disabled_class",
+                "condScript": "",
+                "condJson": "",
+                "tooltip": {
+                  "NL": ""
+                },
+                "questions": []
+              }
+            ]
+          },
+          {
+            "id": 514992,
+            "type": "question",
+            "label": {
+              "NL": "Label_CheckBoxes NL",
+              "EN": "Label_CheckBoxes EN"
+            },
+            "description": {
+              "NL": "",
+              "EN": ""
+            },
+            "name": "CheckBoxes",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "checkbox",
+            "validScript": "",
+            "elementId": "CheckBoxes_id",
+            "className": "CheckBoxes_class",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": [
+              {
+                "id": 514993,
+                "type": "answeroption",
+                "label": {
+                  "NL": "Label_CheckBoxOption NL",
+                  "EN": "Label_CheckBoxOption EN"
+                },
+                "description": "",
+                "name": "CheckBoxOption",
+                "defaultValue": false,
+                "disabled": false,
+                "elementId": "CheckBoxOption_id",
+                "className": "CheckBoxOption_class",
+                "condScript": "",
+                "condJson": "",
+                "tooltip": {
+                  "NL": ""
+                },
+                "questions": []
+              },
+              {
+                "id": 514994,
+                "type": "answeroption",
+                "label": {
+                  "NL": "Label_CheckBox_Pre_Selected NL",
+                  "EN": "Label_CheckBox_Pre_Selected EN"
+                },
+                "description": "",
+                "name": "CheckBox_Pre_Selected",
+                "defaultValue": true,
+                "disabled": false,
+                "elementId": "CheckBox_Pre_Selected_id",
+                "className": "CheckBox_Pre_Selected_class",
+                "condScript": "",
+                "condJson": "",
+                "tooltip": {
+                  "NL": ""
+                },
+                "questions": []
+              },
+              {
+                "id": 514995,
+                "type": "answeroption",
+                "label": {
+                  "NL": "Label_CheckBox_Disabled NL",
+                  "EN": "Label_CheckBox_Disabled EN"
+                },
+                "description": "",
+                "name": "CheckBox_Disabled",
+                "defaultValue": false,
+                "disabled": true,
+                "elementId": "CheckBox_Disabled_id",
+                "className": "CheckBox_Disabled_class",
+                "condScript": "",
+                "condJson": "",
+                "tooltip": {
+                  "NL": ""
+                },
+                "questions": []
+              }
+            ]
+          },
+          {
+            "id": 514996,
+            "type": "question",
+            "label": {
+              "NL": "Label_DropDown NL",
+              "EN": "Label_DropDown EN"
+            },
+            "description": {
+              "NL": "",
+              "EN": ""
+            },
+            "name": "DropDown",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "dropdown",
+            "validScript": "",
+            "elementId": "DropDown_id",
+            "className": "DropDown_class",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "DropDown_Unselected_Label NL",
+              "EN": "DropDown_Unselected_Label EN"
+            },
+            "options": [
+              {
+                "id": 514997,
+                "type": "answeroption",
+                "label": {
+                  "NL": "Label_DropDown_option NL",
+                  "EN": "Label_DropDown_option EN"
+                },
+                "description": "",
+                "name": "DropDown_option",
+                "defaultValue": false,
+                "disabled": false,
+                "elementId": "DropDown_option_id",
+                "className": "DropDown_option_class",
+                "condScript": "",
+                "condJson": "",
+                "tooltip": {
+                  "NL": ""
+                },
+                "questions": []
+              },
+              {
+                "id": 514998,
+                "type": "answeroption",
+                "label": {
+                  "NL": "Label_Dropdown_Pre_Selected NL",
+                  "EN": "Label_Dropdown_Pre_Selected EN"
+                },
+                "description": "",
+                "name": "Dropdown_Pre_Selected",
+                "defaultValue": true,
+                "disabled": false,
+                "elementId": "Dropdown_Pre_Selected_id",
+                "className": "Dropdown_Pre_Selected_class",
+                "condScript": "",
+                "condJson": "",
+                "tooltip": {
+                  "NL": ""
+                },
+                "questions": []
+              },
+              {
+                "id": 514999,
+                "type": "answeroption",
+                "label": {
+                  "NL": "Label_Dropdown_Disabled NL",
+                  "EN": "Label_Dropdown_Disabled EN"
+                },
+                "description": "",
+                "name": "Dropdown_Disabled",
+                "defaultValue": false,
+                "disabled": true,
+                "elementId": "Dropdown_Disabled_id",
+                "className": "Dropdown_Disabled_class",
+                "condScript": "",
+                "condJson": "",
+                "tooltip": {
+                  "NL": ""
+                },
+                "questions": []
+              }
+            ]
+          },
+          {
+            "id": 515000,
+            "type": "question",
+            "label": {
+              "NL": "Label_FileUpload NL",
+              "EN": "Label_FileUpload EN"
+            },
+            "description": {
+              "NL": "",
+              "EN": ""
+            },
+            "name": "FileUpload",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "upload",
+            "validScript": "",
+            "elementId": "FileUpload_id",
+            "className": "FileUpload_class",
+            "hint": {
+              "NL": "Upload your file here NL",
+              "EN": "Upload your file here EN"
+            },
+            "tooltip": {
+              "NL": "Click on the button Browse and choose your file NL",
+              "EN": "Click on the button Browse and choose your file EN"
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 515001,
+            "type": "question",
+            "label": {
+              "NL": "Label_RepeatUploadField NL",
+              "EN": "Label_RepeatUploadField EN"
+            },
+            "description": {
+              "NL": "",
+              "EN": ""
+            },
+            "name": "RepeatUploadField",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "repeatupload",
+            "validScript": "",
+            "elementId": "RepeatUploadField_id",
+            "className": "RepeatUploadField_class",
+            "hint": {
+              "NL": "Upload your file here NL",
+              "EN": "Upload your file here EN"
+            },
+            "tooltip": {
+              "NL": "Click on the button Browse and choose your file. Click the button repeat for clear content. NL",
+              "EN": "Click on the button Browse and choose your file. Click the button repeat for clear content. EN"
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 515002,
+            "type": "question",
+            "label": {
+              "NL": "Label_AsyncUploadField NL",
+              "EN": "Label_AsyncUploadField EN"
+            },
+            "description": {
+              "NL": "",
+              "EN": ""
+            },
+            "name": "AsyncUploadField",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "asyncupload",
+            "validScript": "",
+            "elementId": "AsyncUploadField_id",
+            "className": "AsyncUploadField_class",
+            "hint": {
+              "NL": "Upload your file here NL",
+              "EN": "Upload your file here EN"
+            },
+            "tooltip": {
+              "NL": "Click on the button Browse and choose your file NL",
+              "EN": "Click on the button Browse and choose your file EN"
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 515003,
+            "type": "question",
+            "label": {
+              "NL": "Label_AsyncMultiUpload NL",
+              "EN": "Label_AsyncMultiUpload EN"
+            },
+            "description": {
+              "NL": "",
+              "EN": ""
+            },
+            "name": "AsyncMultiUpload",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "asyncmultiupload",
+            "validScript": "",
+            "elementId": "AsyncMultiUpload_id",
+            "className": "AsyncMultiUpload_class",
+            "hint": {
+              "NL": "Upload your file here NL",
+              "EN": "Upload your file here EN"
+            },
+            "tooltip": {
+              "NL": "Click on the button Browse and choose your file NL",
+              "EN": "Click on the button Browse and choose your file EN"
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 515004,
+            "type": "question",
+            "label": {
+              "NL": "Label_Widget NL",
+              "EN": "Label_Widget EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Widget",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "widget",
+            "validScript": "",
+            "elementId": "Widget_id",
+            "className": "Widget_class",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "calcCaravanTravel",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          }
+        ]
+      },
+      {
+        "id": 515005,
+        "type": "section",
+        "label": {
+          "NL": "page2_label_NL",
+          "EN": "page2_label_EN"
+        },
+        "description": "",
+        "name": "page2_name",
+        "elementId": "",
+        "className": "",
+        "condScript": "",
+        "condJson": "",
+        "tags": "",
+        "backButton": {
+          "NL": ""
+        },
+        "nextButton": {
+          "NL": ""
+        },
+        "submitButton": {
+          "NL": ""
+        },
+        "submitUrl": "",
+        "submitErrorUrl": "",
+        "pageUrl": "",
+        "questions": [
+          {
+            "id": 515006,
+            "type": "question",
+            "label": {
+              "NL": "Summary_lable_NL",
+              "EN": "Summary_lable_EN"
+            },
+            "description": {
+              "NL": "",
+              "EN": ""
+            },
+            "name": "Summary_name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "summary",
+            "validScript": "",
+            "elementId": "",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          }
+        ]
+      }
+    ],
+    "version": 0,
+    "token": "nalZ2arq"
+  }
+}
