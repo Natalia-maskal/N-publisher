@@ -1,0 +1,398 @@
+{
+  "hash": "hrGqwQhq",
+  "name": "ATF Form for Repeater imported",
+  "description": "This form is for repeater testing",
+  "tags": "",
+  "company": "1367",
+  "version": "0.01",
+  "theme": "",
+  "themeViewUri": "",
+  "serviceUri": "",
+  "servicePackageId": "",
+  "serviceTemplateName": "",
+  "prefillServiceTemplateName": "",
+  "jsDependencies": "[]",
+  "data": {
+    "id": 514315,
+    "type": "questionnaire",
+    "name": "ATF Form for Repeater imported",
+    "description": "This form is for repeater testing",
+    "successContent": {
+      "NL": ""
+    },
+    "errorContent": {
+      "NL": ""
+    },
+    "submitUrl": "",
+    "submitErrorUrl": "",
+    "tags": "",
+    "backButton": {
+      "NL": ""
+    },
+    "nextButton": {
+      "NL": ""
+    },
+    "submitButton": {
+      "NL": ""
+    },
+    "locales": "NL,EN",
+    "defLocale": "NL",
+    "company": "ATF_Company",
+    "user": "ATF_Company_AdminAndUser",
+    "publishDate": "22-07-2022 12:26:34",
+    "publishVersion": "0.01",
+    "pages": [
+      {
+        "id": 514316,
+        "type": "section",
+        "label": {
+          "NL": "Page 1 label NL",
+          "EN": "Page 1 label EN"
+        },
+        "description": "",
+        "name": "Page 1 name",
+        "elementId": "",
+        "className": "",
+        "condScript": "",
+        "condJson": "",
+        "tags": "",
+        "backButton": {
+          "NL": ""
+        },
+        "nextButton": {
+          "NL": ""
+        },
+        "submitButton": {
+          "NL": ""
+        },
+        "submitUrl": "",
+        "submitErrorUrl": "",
+        "pageUrl": "",
+        "questions": [
+          {
+            "id": 514317,
+            "type": "operator",
+            "label": {
+              "NL": "Repeater label general NL",
+              "EN": "Repeater label general EN"
+            },
+            "description": "",
+            "name": "Repeater name general",
+            "operatorType": "repeater",
+            "elementId": "repeater_general_id",
+            "className": "",
+            "condScript": "",
+            "condJson": "",
+            "operatorButton": {
+              "NL": "Repeat NL",
+              "EN": "Repeat EN"
+            },
+            "operands": [
+              {
+                "id": 514318,
+                "type": "question",
+                "label": {
+                  "NL": "TextField label general NL",
+                  "EN": "TextField label general EN"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "TextField name general",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "textfield",
+                "validScript": "",
+                "elementId": "TextField_general_id",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              },
+              {
+                "id": 514319,
+                "type": "question",
+                "label": {
+                  "NL": "DateField calendar label general NL",
+                  "EN": "DateField calendar label general EN"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "DateField calendar name general",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "date",
+                "validScript": "",
+                "elementId": "DateField_calendar_general_id",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              },
+              {
+                "id": 514320,
+                "type": "question",
+                "label": {
+                  "NL": "Upload field label general NL",
+                  "EN": "Upload field label general EN"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "Upload field name general",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "upload",
+                "validScript": "",
+                "elementId": "upload_field_general_id",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              },
+              {
+                "id": 514321,
+                "type": "question",
+                "label": {
+                  "NL": "Radiobuttons label general NL",
+                  "EN": "Radiobuttons label general EN"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "Radiobuttons name general",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "radio",
+                "validScript": "",
+                "elementId": "Radiobuttons_general_id",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              },
+              {
+                "id": 514322,
+                "type": "question",
+                "label": {
+                  "NL": "Widget label general NL",
+                  "EN": "Widget label general EN"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "Widget name general",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "widget",
+                "validScript": "",
+                "elementId": "Widget_general_id",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "Widget_template_file_general",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              }
+            ]
+          },
+          {
+            "id": 514323,
+            "type": "operator",
+            "label": {
+              "NL": "Repeater elementID and className NL",
+              "EN": "Repeater elementID and className EN"
+            },
+            "description": "",
+            "name": "Repeater elementID and className",
+            "operatorType": "repeater",
+            "elementId": "repeater_id",
+            "className": "repeater_class",
+            "condScript": "",
+            "condJson": "",
+            "operatorButton": {
+              "NL": ""
+            },
+            "operands": []
+          },
+          {
+            "id": 514324,
+            "type": "operator",
+            "label": {
+              "NL": "Repeater with condition NL",
+              "EN": "Repeater with condition EN"
+            },
+            "description": "",
+            "name": "Repeater with condition",
+            "operatorType": "repeater",
+            "elementId": "repeater_with_condition_id",
+            "className": "",
+            "condScript": "",
+            "condJson": "",
+            "operatorButton": {
+              "NL": "Repeat NL",
+              "EN": "Repeat EN"
+            },
+            "operands": []
+          }
+        ]
+      }
+    ],
+    "version": 0,
+    "token": "nalZ2arq"
+  }
+}
