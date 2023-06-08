@@ -1,0 +1,2810 @@
+{
+  "hash": "orGqoQXq",
+  "name": "ATF Form for date fields imported",
+  "description": "This form is for testing datefields",
+  "tags": "",
+  "company": "1367",
+  "version": "0.01",
+  "theme": "",
+  "themeViewUri": "",
+  "serviceUri": "",
+  "servicePackageId": "",
+  "serviceTemplateName": "",
+  "prefillServiceTemplateName": "",
+  "jsDependencies": "[]",
+  "data": {
+    "id": 519204,
+    "type": "questionnaire",
+    "name": "ATF Form for date fields imported",
+    "description": "This form is for testing datefields",
+    "successContent": {
+      "NL": ""
+    },
+    "errorContent": {
+      "NL": ""
+    },
+    "submitUrl": "",
+    "submitErrorUrl": "",
+    "tags": "",
+    "backButton": {
+      "NL": ""
+    },
+    "nextButton": {
+      "NL": ""
+    },
+    "submitButton": {
+      "NL": ""
+    },
+    "locales": "NL,EN",
+    "defLocale": "NL",
+    "company": "ATF_Company",
+    "user": "ATF_Company_AdminAndUser",
+    "publishDate": "23-09-2022 05:18:36",
+    "publishVersion": "0.01",
+    "pages": [
+      {
+        "id": 519588,
+        "type": "section",
+        "label": {
+          "NL": "Page 1 label NL",
+          "EN": "Page 1 label EN"
+        },
+        "description": "",
+        "name": "Page 1 name",
+        "elementId": "",
+        "className": "",
+        "condScript": "",
+        "condJson": "",
+        "tags": "",
+        "backButton": {
+          "NL": "",
+          "EN": ""
+        },
+        "nextButton": {
+          "NL": "",
+          "EN": ""
+        },
+        "submitButton": {
+          "NL": "",
+          "EN": ""
+        },
+        "submitUrl": "",
+        "submitErrorUrl": "",
+        "pageUrl": "",
+        "questions": [
+          {
+            "id": 519589,
+            "type": "question",
+            "label": {
+              "NL": "DateField calendar label general NL",
+              "EN": "DateField calendar label general EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField calendar name general",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_calendar_general_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "",
+              "EN": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519590,
+            "type": "question",
+            "label": {
+              "NL": "DateField calendar no summary label NL",
+              "EN": "DateField calendar no summary label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField calendar no summary name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_calendar_no_summary_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "summary no",
+            "defaultValue": {
+              "NL": "",
+              "EN": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519591,
+            "type": "question",
+            "label": {
+              "NL": "DateField calendar no render label NL",
+              "EN": "DateField calendar no render label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField calendar no render name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_calendar_no_render_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "render no",
+            "defaultValue": {
+              "NL": "",
+              "EN": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519592,
+            "type": "question",
+            "label": {
+              "NL": "DateField calendar elementID and class label NL",
+              "EN": "DateField calendar elementID and class label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField calendar elementID and class name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_calendar_elementID",
+            "className": "DateField_calendar_class",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "",
+              "EN": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519593,
+            "type": "question",
+            "label": {
+              "NL": "DateField calendar with Hint for nl label NL",
+              "EN": "DateField calendar with Hint for nl label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField calendar with Hint for nl name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_calendar_with_Hint_for_nl_id",
+            "className": "",
+            "hint": {
+              "NL": "01-01-2019",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "",
+              "EN": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519594,
+            "type": "question",
+            "label": {
+              "NL": "DateField calendar with Hint for en label NL",
+              "EN": "DateField calendar with Hint for en label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField calendar with Hint for en name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_calendar_with_Hint_for_en_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": "31-12-2019"
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "",
+              "EN": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519595,
+            "type": "question",
+            "label": {
+              "NL": "DateField calendar with Hint for two locals label NL",
+              "EN": "DateField calendar with Hint for two locals label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField calendar with for two locals Hint name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_calendar_with_Hint_for_two_locals_id",
+            "className": "",
+            "hint": {
+              "NL": "01-01-2019",
+              "EN": "02-02-2019"
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "",
+              "EN": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519596,
+            "type": "question",
+            "label": {
+              "NL": "DateField calendar with Default for nl label NL",
+              "EN": "DateField calendar with Default for nl label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField calendar with Default for nl name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_calendar_with_Default_for_nl_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "01-01-2019",
+              "EN": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519597,
+            "type": "question",
+            "label": {
+              "NL": "DateField calendar with Default for en label NL",
+              "EN": "DateField calendar with Default for en label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField calendar with Default for en name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_calendar_with_Default_for_en_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "",
+              "EN": "01-01-2020"
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519598,
+            "type": "question",
+            "label": {
+              "NL": "DateField calendar with Default for two locals label NL",
+              "EN": "DateField calendar with Default for two locals label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField calendar with Default for two locals name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_calendar_with_Default_for_two_locals_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "01-12-2019",
+              "EN": "31-12-2019"
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519599,
+            "type": "question",
+            "label": {
+              "NL": "DateField calendar with Default empty for nl label NL",
+              "EN": "DateField calendar with Default empty for nl label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField calendar with Default empty for nl name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_calendar_with_Default_empty_for_nl_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "EMPTY",
+              "EN": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519600,
+            "type": "question",
+            "label": {
+              "NL": "DateField calendar with Default empty for en label NL",
+              "EN": "DateField calendar with Default empty for en label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField calendar with Default empty for en name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_calendar_with_Default_empty_for_en_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "",
+              "EN": "EMPTY"
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519601,
+            "type": "question",
+            "label": {
+              "NL": "DateField calendar with Default empty for two locals label NL",
+              "EN": "DateField calendar with Default empty for two locals label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField calendar with Default empty for two locals name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_calendar_with_Default_empty_for_two_locals_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "EMPTY",
+              "EN": "EMPTY"
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519602,
+            "type": "question",
+            "label": {
+              "NL": "DateField calendar with min max date label NL",
+              "EN": "DateField calendar with min max date label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField calendar with min max date name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_calendar_with_min_max_date_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "",
+              "EN": ""
+            },
+            "disabled": false,
+            "minDate": "2019-01-01",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "2019-12-31",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519603,
+            "type": "question",
+            "label": {
+              "NL": "DateField calendar with min max date def for nl label NL",
+              "EN": "DateField calendar with min max date def for nl label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField calendar with min max date def for nl name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_calendar_with_min_max_date_def_for_nl_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "15-08-2019",
+              "EN": ""
+            },
+            "disabled": false,
+            "minDate": "2019-01-01",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "2019-12-31",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519604,
+            "type": "question",
+            "label": {
+              "NL": "DateField calendar with min max date def for en label NL",
+              "EN": "DateField calendar with min max date def for en label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField calendar with min max date def for en name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_calendar_with_min_max_date_def_for_en_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "",
+              "EN": "15-07-2019"
+            },
+            "disabled": false,
+            "minDate": "2019-01-01",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "2019-12-31",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519605,
+            "type": "question",
+            "label": {
+              "NL": "DateField calendar with min max date def for 2 locals label NL",
+              "EN": "DateField calendar with min max date def for 2 locals label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField calendar with min max date def for 2 locals name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_calendar_with_min_max_date_def_for_2_locals_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "01-06-2019",
+              "EN": "30-12-2019"
+            },
+            "disabled": false,
+            "minDate": "2019-01-01",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "2019-12-31",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519606,
+            "type": "question",
+            "label": {
+              "NL": "DateField calendar with min max date def empty label NL",
+              "EN": "DateField calendar with min max date def empty label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField calendar with min max date def empty name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_calendar_with_min_max_date_def_empty_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "EMPTY",
+              "EN": ""
+            },
+            "disabled": false,
+            "minDate": "2019-01-01",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "2019-12-31",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519607,
+            "type": "question",
+            "label": {
+              "NL": "DateField calendar with min date today label NL",
+              "EN": "DateField calendar with min date today label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField calendar with min date today name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_calendar_with_min_date_today_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "",
+              "EN": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "today",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519608,
+            "type": "question",
+            "label": {
+              "NL": "DateField calendar with min in the future label NL",
+              "EN": "DateField calendar with min in the future label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField calendar with min in the future name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_calendar_with_min_in_the_future_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "",
+              "EN": ""
+            },
+            "disabled": false,
+            "minDate": "2024-12-31",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519609,
+            "type": "question",
+            "label": {
+              "NL": "DateField calendar with min offset plus 2 month label NL",
+              "EN": "DateField calendar with min offset plus 2 month label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField calendar with min offset plus 2 month name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_calendar_with_min_offset_plus_2_month_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "",
+              "EN": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "today",
+            "minDateOffset": "+2m",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "+2m",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519610,
+            "type": "question",
+            "label": {
+              "NL": "DateField calendar with min offset minus 3 weeks label NL",
+              "EN": "DateField calendar with min offset minus 3 weeks label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField calendar with min offset minus 3 weeks name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_calendar_with_min_offset_minus_3_weeks_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "",
+              "EN": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "today",
+            "minDateOffset": "-3w",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "-3w",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519611,
+            "type": "question",
+            "label": {
+              "NL": "DateField calendar with max date today label NL",
+              "EN": "DateField calendar with max date today label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField calendar with max date today name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_calendar_with_max_date_today_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "",
+              "EN": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "today",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519612,
+            "type": "question",
+            "label": {
+              "NL": "DateField calendar with max in the past label NL",
+              "EN": "DateField calendar with max in the past label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField calendar with max in the past name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_calendar_with_max_in_the_past_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "",
+              "EN": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "2019-01-01",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519613,
+            "type": "question",
+            "label": {
+              "NL": "DateField calendar with max offset plus 1 year label NL",
+              "EN": "DateField calendar with max offset plus 1 year label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField calendar with max offset plus 1 year name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_calendar_with_max_offset_plus_1_year_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "",
+              "EN": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "today",
+            "maxDateOffset": "+1y",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519614,
+            "type": "question",
+            "label": {
+              "NL": "DateField calendar with max offset minus 4 days label NL",
+              "EN": "DateField calendar with max offset minus 4 days label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField calendar with max offset minus 4 days name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_calendar_with_max_offset_minus_4_days_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "",
+              "EN": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "today",
+            "maxDateOffset": "-4d",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519615,
+            "type": "question",
+            "label": {
+              "NL": "DateField calendar with Disabled checkbox label NL",
+              "EN": "DateField calendar with Disabled checkbox label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField calendar with Disabled checkbox name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_calendar_with_Disabled_checkbox_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "",
+              "EN": ""
+            },
+            "disabled": true,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519616,
+            "type": "question",
+            "label": {
+              "NL": "DateField calendar with Tooltip label NL",
+              "EN": "DateField calendar with Tooltip label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField calendar with Tooltip name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_calendar_with_Tooltip_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": "<!doctype html>\n<html>\n    <head>\n        <title>Tooltip title for date field calendar</title>\n    </head>\n    <body>\n        After putting pointer to this date field (calendar) you will see this tooltip! NL\n    </body>\n</html>\n",
+              "EN": "After putting pointer to this date field (calendar) you will see this tooltip! EN"
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "",
+              "EN": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          }
+        ]
+      },
+      {
+        "id": 519617,
+        "type": "section",
+        "label": {
+          "NL": "Page 2 label NL",
+          "EN": "Page 2 label EN"
+        },
+        "description": "",
+        "name": "Page 2 name",
+        "elementId": "",
+        "className": "",
+        "condScript": "",
+        "condJson": "",
+        "tags": "",
+        "backButton": {
+          "NL": "",
+          "EN": ""
+        },
+        "nextButton": {
+          "NL": "",
+          "EN": ""
+        },
+        "submitButton": {
+          "NL": "",
+          "EN": ""
+        },
+        "submitUrl": "",
+        "submitErrorUrl": "",
+        "pageUrl": "",
+        "questions": [
+          {
+            "id": 519618,
+            "type": "question",
+            "label": {
+              "NL": "DateField dropdown label general NL",
+              "EN": "DateField dropdown label general EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField dropdown name general",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_dropdown_general_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "",
+              "EN": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "dropdowns",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519619,
+            "type": "question",
+            "label": {
+              "NL": "DateField dropdown no summary label NL",
+              "EN": "DateField dropdown no summary label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField dropdown no summary name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_dropdown_no_summary_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "summary no",
+            "defaultValue": {
+              "NL": "",
+              "EN": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "dropdowns",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519620,
+            "type": "question",
+            "label": {
+              "NL": "DateField dropdown no render label NL",
+              "EN": "DateField dropdown no render label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField dropdown no render name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_dropdown_no_render_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "render no",
+            "defaultValue": {
+              "NL": "",
+              "EN": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "dropdowns",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519621,
+            "type": "question",
+            "label": {
+              "NL": "DateField dropdown elementID and class label NL",
+              "EN": "DateField dropdown elementID and class label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField dropdown elementID and class name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_dropdown_elementID",
+            "className": "DateField_dropdown_class",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "",
+              "EN": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "dropdowns",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519622,
+            "type": "question",
+            "label": {
+              "NL": "DateField dropdown with Default for nl label NL",
+              "EN": "DateField dropdown with Default for nl label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField dropdown with Default for nl name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_dropdown_with_Default_for_nl_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "01-01-2019",
+              "EN": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "dropdowns",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519623,
+            "type": "question",
+            "label": {
+              "NL": "DateField dropdown with Default for en label NL",
+              "EN": "DateField dropdown with Default for en label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField dropdown with Default for en name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_dropdown_with_Default_for_en_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "",
+              "EN": "02-02-2019"
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "dropdowns",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519624,
+            "type": "question",
+            "label": {
+              "NL": "DateField dropdown with Default for two locals label NL",
+              "EN": "DateField dropdown with Default for two locals label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField dropdown with Default for two locals name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_dropdown_with_Default_for_two_locals_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "01-07-2019",
+              "EN": "03-08-2019"
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "dropdowns",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519625,
+            "type": "question",
+            "label": {
+              "NL": "DateField dropdown with Default empty for nl label NL",
+              "EN": "DateField dropdown with Default empty for nl label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField dropdown with Default empty for nl name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_dropdown_with_Default_empty_for_nl_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "EMPTY",
+              "EN": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "dropdowns",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519626,
+            "type": "question",
+            "label": {
+              "NL": "DateField dropdown with Default empty for en label NL",
+              "EN": "DateField dropdown with Default empty for en label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField dropdown with Default empty for en name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_dropdown_with_Default_empty_for_en_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "",
+              "EN": "EMPTY"
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "dropdowns",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519627,
+            "type": "question",
+            "label": {
+              "NL": "DateField dropdown with Default empty for two locals label NL",
+              "EN": "DateField dropdown with Default empty for two locals label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField dropdown with Default empty for two locals name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_dropdown_with_Default_empty_for_two_locals_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "EMPTY",
+              "EN": "EMPTY"
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "dropdowns",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519628,
+            "type": "question",
+            "label": {
+              "NL": "DateField dropdown with min max date label NL",
+              "EN": "DateField dropdown with min max date label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField dropdown with min max date name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_dropdown_with_min_max_date_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "",
+              "EN": ""
+            },
+            "disabled": false,
+            "minDate": "2019-01-01",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "2019-12-31",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "dropdowns",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519629,
+            "type": "question",
+            "label": {
+              "NL": "DateField dropdown with min max date def for nl label NL",
+              "EN": "DateField dropdown with min max date def for nl label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField dropdown with min max date def for nl name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_dropdown_with_min_max_date_def_for_nl_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "15-08-2019",
+              "EN": ""
+            },
+            "disabled": false,
+            "minDate": "2019-01-01",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "2019-12-31",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "dropdowns",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519630,
+            "type": "question",
+            "label": {
+              "NL": "DateField dropdown with min max date def for en label NL",
+              "EN": "DateField dropdown with min max date def for en label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField dropdown with min max date def for en name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_dropdown_with_min_max_date_def_for_en_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "",
+              "EN": "15-07-2019"
+            },
+            "disabled": false,
+            "minDate": "2019-01-01",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "2019-12-31",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "dropdowns",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519631,
+            "type": "question",
+            "label": {
+              "NL": "DateField dropdown with min max date def for 2 locals label NL",
+              "EN": "DateField dropdown with min max date def for 2 locals label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField dropdown with min max date def for 2 locals name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_dropdown_with_min_max_date_def_for_2_locals_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "01-06-2019",
+              "EN": "30-12-2019"
+            },
+            "disabled": false,
+            "minDate": "2019-01-01",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "2019-12-31",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "dropdowns",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519632,
+            "type": "question",
+            "label": {
+              "NL": "DateField dropdown with min max date def empty label NL",
+              "EN": "DateField dropdown with min max date def empty label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField dropdown with min max date def empty name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_dropdown_with_min_max_date_def_empty_locals_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "EMPTY",
+              "EN": ""
+            },
+            "disabled": false,
+            "minDate": "2019-01-01",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "2019-12-31",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "dropdowns",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519633,
+            "type": "question",
+            "label": {
+              "NL": "DateField dropdown with min date today label NL",
+              "EN": "DateField dropdown with min date today label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField dropdown with min date today name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_dropdown_with_min_date_today_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "",
+              "EN": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "today",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "dropdowns",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519634,
+            "type": "question",
+            "label": {
+              "NL": "DateField dropdown with min in the future label NL",
+              "EN": "DateField dropdown with min in the future label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField dropdown with min in the future name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_dropdown_with_min_in_the_future_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "",
+              "EN": ""
+            },
+            "disabled": false,
+            "minDate": "2024-12-31",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "dropdowns",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519635,
+            "type": "question",
+            "label": {
+              "NL": "DateField dropdown with max date today label NL",
+              "EN": "DateField dropdown with max date today label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField dropdown with max date today name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_dropdown_with_max_date_today_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "",
+              "EN": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "today",
+            "maxDateOffset": "",
+            "dateType": "dropdowns",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519636,
+            "type": "question",
+            "label": {
+              "NL": "DateField dropdown with max in the past label NL",
+              "EN": "DateField dropdown with max in the past label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField dropdown with max in the past name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_dropdown_with_max_in_the_past_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "",
+              "EN": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "2019-01-01",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "dropdowns",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519637,
+            "type": "question",
+            "label": {
+              "NL": "DateField dropdown with Disabled checkbox label NL",
+              "EN": "DateField dropdown with Disabled checkbox label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField dropdown with Disabled checkbox name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_dropdown_with_Disabled_checkbox_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "",
+              "EN": ""
+            },
+            "disabled": true,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "dropdowns",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519638,
+            "type": "question",
+            "label": {
+              "NL": "DateField dropdown with Tooltip label NL",
+              "EN": "DateField dropdown with Tooltip label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField dropdown with Tooltip name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_dropdown_with_Tooltip_id",
+            "className": "",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": "<p>After putting pointer to this date field (dropdown) you will see this tooltip! NL</p>",
+              "EN": "After putting pointer to this date field (dropdown) you will see this tooltip! EN"
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "",
+              "EN": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "dropdowns",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          }
+        ]
+      }
+    ],
+    "version": 0,
+    "token": "nalZ2arq"
+  }
+}

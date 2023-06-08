@@ -1,0 +1,130 @@
+{
+  "hash": "yaGqFQHH",
+  "name": "ATF form for environment dependent variables",
+  "description": "This form is for environment dependent variables testing",
+  "tags": "",
+  "company": "1367",
+  "version": "0.01",
+  "theme": "3072",
+  "themeViewUri": "publisher/view",
+  "serviceUri": "",
+  "servicePackageId": "",
+  "serviceTemplateName": "",
+  "prefillServiceTemplateName": "",
+  "jsDependencies": "[]",
+  "data": {
+    "id": 518540,
+    "type": "questionnaire",
+    "name": "ATF form for environment dependent variables",
+    "description": "This form is for environment dependent variables testing",
+    "successContent": {
+      "NL": ""
+    },
+    "errorContent": {
+      "NL": ""
+    },
+    "submitUrl": "",
+    "submitErrorUrl": "",
+    "tags": "",
+    "backButton": {
+      "NL": ""
+    },
+    "nextButton": {
+      "NL": ""
+    },
+    "submitButton": {
+      "NL": ""
+    },
+    "locales": "NL,EN",
+    "defLocale": "NL",
+    "company": "ATF_Company",
+    "user": "ATF_Company_AdminAndUser",
+    "publishDate": "28-10-2022 04:46:06",
+    "publishVersion": "0.01",
+    "pages": [
+      {
+        "id": 518541,
+        "type": "section",
+        "label": {
+          "NL": "Page 1 label NL",
+          "EN": "Page 1 label EN"
+        },
+        "description": "",
+        "name": "Page 1 name",
+        "elementId": "",
+        "className": "",
+        "condScript": "",
+        "condJson": "",
+        "tags": "",
+        "backButton": {
+          "NL": ""
+        },
+        "nextButton": {
+          "NL": ""
+        },
+        "submitButton": {
+          "NL": ""
+        },
+        "submitUrl": "",
+        "submitErrorUrl": "",
+        "pageUrl": "",
+        "questions": [
+          {
+            "id": 518542,
+            "type": "question",
+            "label": {
+              "NL": "DependentWidget NL",
+              "EN": "DependentWidget EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "dependentwidget",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "widget",
+            "validScript": "",
+            "elementId": "",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "ATF_DependentWidget_company",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          }
+        ]
+      }
+    ],
+    "version": 0,
+    "token": "nalZ2arq"
+  }
+}

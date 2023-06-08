@@ -1,0 +1,525 @@
+{
+  "hash": "FrGquQLy",
+  "name": "ATF Form for test initAnswers",
+  "description": "",
+  "tags": "",
+  "company": "1367",
+  "version": "0.01",
+  "theme": "",
+  "themeViewUri": "",
+  "serviceUri": "",
+  "servicePackageId": "",
+  "serviceTemplateName": "",
+  "prefillServiceTemplateName": "",
+  "jsDependencies": "[]",
+  "data": {
+    "id": 514639,
+    "type": "questionnaire",
+    "name": "ATF Form for test initAnswers",
+    "description": "",
+    "successContent": {
+      "NL": ""
+    },
+    "errorContent": {
+      "NL": ""
+    },
+    "submitUrl": "",
+    "submitErrorUrl": "",
+    "tags": "",
+    "backButton": {
+      "NL": ""
+    },
+    "nextButton": {
+      "NL": ""
+    },
+    "submitButton": {
+      "NL": ""
+    },
+    "locales": "NL",
+    "defLocale": "NL",
+    "company": "ATF_Company",
+    "user": "ATF_Company_AdminAndUser",
+    "publishDate": "22-07-2022 12:33:07",
+    "publishVersion": "0.01",
+    "pages": [
+      {
+        "id": 514640,
+        "type": "section",
+        "label": {
+          "NL": "page1_label"
+        },
+        "description": "",
+        "name": "page1_name",
+        "elementId": "",
+        "className": "",
+        "condScript": "",
+        "condJson": "",
+        "tags": "",
+        "backButton": {
+          "NL": ""
+        },
+        "nextButton": {
+          "NL": ""
+        },
+        "submitButton": {
+          "NL": ""
+        },
+        "submitUrl": "",
+        "submitErrorUrl": "",
+        "pageUrl": "",
+        "questions": [
+          {
+            "id": 514641,
+            "type": "operator",
+            "label": {
+              "NL": "Repeater1"
+            },
+            "description": "",
+            "name": "Repeater1",
+            "operatorType": "repeater",
+            "elementId": "",
+            "className": "",
+            "condScript": "",
+            "condJson": "",
+            "operatorButton": {
+              "NL": ""
+            },
+            "operands": [
+              {
+                "id": 514642,
+                "type": "question",
+                "label": {
+                  "NL": "TextField"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "TextField",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "textfield",
+                "validScript": "",
+                "elementId": "",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              },
+              {
+                "id": 514643,
+                "type": "question",
+                "label": {
+                  "NL": "RadioButton"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "RadioButton",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "radio",
+                "validScript": "",
+                "elementId": "",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": [
+                  {
+                    "id": 514644,
+                    "type": "answeroption",
+                    "label": {
+                      "NL": "op1"
+                    },
+                    "description": "",
+                    "name": "op1",
+                    "defaultValue": false,
+                    "disabled": false,
+                    "elementId": "",
+                    "className": "",
+                    "condScript": "",
+                    "condJson": "",
+                    "tooltip": {
+                      "NL": ""
+                    },
+                    "questions": []
+                  },
+                  {
+                    "id": 514645,
+                    "type": "answeroption",
+                    "label": {
+                      "NL": "op2"
+                    },
+                    "description": "",
+                    "name": "op2",
+                    "defaultValue": false,
+                    "disabled": false,
+                    "elementId": "",
+                    "className": "",
+                    "condScript": "",
+                    "condJson": "",
+                    "tooltip": {
+                      "NL": ""
+                    },
+                    "questions": []
+                  }
+                ]
+              },
+              {
+                "id": 514646,
+                "type": "question",
+                "label": {
+                  "NL": "CheckBoxes"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "CheckBoxes",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "checkbox",
+                "validScript": "",
+                "elementId": "",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": [
+                  {
+                    "id": 514647,
+                    "type": "answeroption",
+                    "label": {
+                      "NL": "op1"
+                    },
+                    "description": "",
+                    "name": "op1",
+                    "defaultValue": false,
+                    "disabled": false,
+                    "elementId": "",
+                    "className": "",
+                    "condScript": "",
+                    "condJson": "",
+                    "tooltip": {
+                      "NL": ""
+                    },
+                    "questions": []
+                  },
+                  {
+                    "id": 514648,
+                    "type": "answeroption",
+                    "label": {
+                      "NL": "op2"
+                    },
+                    "description": "",
+                    "name": "op2",
+                    "defaultValue": false,
+                    "disabled": false,
+                    "elementId": "",
+                    "className": "",
+                    "condScript": "",
+                    "condJson": "",
+                    "tooltip": {
+                      "NL": ""
+                    },
+                    "questions": []
+                  }
+                ]
+              },
+              {
+                "id": 514649,
+                "type": "question",
+                "label": {
+                  "NL": "DropDown"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "DropDown",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "dropdown",
+                "validScript": "",
+                "elementId": "",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": [
+                  {
+                    "id": 514650,
+                    "type": "answeroption",
+                    "label": {
+                      "NL": "op1"
+                    },
+                    "description": "",
+                    "name": "op1",
+                    "defaultValue": false,
+                    "disabled": false,
+                    "elementId": "",
+                    "className": "",
+                    "condScript": "",
+                    "condJson": "",
+                    "tooltip": {
+                      "NL": ""
+                    },
+                    "questions": []
+                  },
+                  {
+                    "id": 514651,
+                    "type": "answeroption",
+                    "label": {
+                      "NL": "op2"
+                    },
+                    "description": "",
+                    "name": "op2",
+                    "defaultValue": false,
+                    "disabled": false,
+                    "elementId": "",
+                    "className": "",
+                    "condScript": "",
+                    "condJson": "",
+                    "tooltip": {
+                      "NL": ""
+                    },
+                    "questions": []
+                  }
+                ]
+              },
+              {
+                "id": 514652,
+                "type": "group",
+                "name": "group",
+                "description": "",
+                "elementId": "",
+                "className": "",
+                "tags": "",
+                "children": [
+                  {
+                    "id": 514653,
+                    "type": "operator",
+                    "label": {
+                      "NL": "Repeater2"
+                    },
+                    "description": "",
+                    "name": "Repeater2",
+                    "operatorType": "repeater",
+                    "elementId": "",
+                    "className": "",
+                    "condScript": "",
+                    "condJson": "",
+                    "operatorButton": {
+                      "NL": ""
+                    },
+                    "operands": [
+                      {
+                        "id": 514654,
+                        "type": "question",
+                        "label": {
+                          "NL": "TextField1"
+                        },
+                        "description": {
+                          "NL": ""
+                        },
+                        "name": "TextField1",
+                        "subLabel": {
+                          "NL": ""
+                        },
+                        "inputType": "textfield",
+                        "validScript": "",
+                        "elementId": "",
+                        "className": "",
+                        "hint": {
+                          "NL": ""
+                        },
+                        "tooltip": {
+                          "NL": ""
+                        },
+                        "labelVariables": {
+                          "NL": ""
+                        },
+                        "tags": "",
+                        "defaultValue": {
+                          "NL": ""
+                        },
+                        "disabled": false,
+                        "minDate": "",
+                        "minDateType": "",
+                        "minDateOffset": "",
+                        "maxDate": "",
+                        "maxDateType": "",
+                        "maxDateOffset": "",
+                        "dateType": "calendar",
+                        "secured": false,
+                        "customTemplate": "",
+                        "varNames": "",
+                        "varValues": "{}",
+                        "mask": "",
+                        "validations": [],
+                        "deduceJson": "",
+                        "deduceScript": "",
+                        "unselectLabel": {
+                          "NL": ""
+                        },
+                        "options": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 514655,
+        "type": "section",
+        "label": {
+          "NL": "page2_label"
+        },
+        "description": "",
+        "name": "page2_name",
+        "elementId": "",
+        "className": "",
+        "condScript": "",
+        "condJson": "",
+        "tags": "",
+        "backButton": {
+          "NL": ""
+        },
+        "nextButton": {
+          "NL": ""
+        },
+        "submitButton": {
+          "NL": ""
+        },
+        "submitUrl": "",
+        "submitErrorUrl": "",
+        "pageUrl": "",
+        "questions": []
+      }
+    ],
+    "version": 0,
+    "token": "nalZ2arq"
+  }
+}

@@ -1,0 +1,2191 @@
+{
+  "hash": "CZGqFQHy",
+  "name": "ATF Form for conditions testing",
+  "description": "",
+  "tags": "",
+  "company": "1367",
+  "version": "0.01",
+  "theme": "",
+  "themeViewUri": "",
+  "serviceUri": "",
+  "servicePackageId": "",
+  "serviceTemplateName": "dxcghbjkmkl",
+  "prefillServiceTemplateName": "",
+  "jsDependencies": "[]",
+  "data": {
+    "id": 518478,
+    "type": "questionnaire",
+    "name": "ATF Form for conditions testing",
+    "description": "",
+    "successContent": {
+      "NL": ""
+    },
+    "errorContent": {
+      "NL": ""
+    },
+    "submitUrl": "",
+    "submitErrorUrl": "",
+    "tags": "",
+    "backButton": {
+      "NL": ""
+    },
+    "nextButton": {
+      "NL": ""
+    },
+    "submitButton": {
+      "NL": ""
+    },
+    "locales": "NL",
+    "defLocale": "NL",
+    "company": "ATF_Company",
+    "user": "ATF_Company_AdminAndUser",
+    "publishDate": "03-11-2022 12:47:18",
+    "publishVersion": "0.01",
+    "pages": [
+      {
+        "id": 522402,
+        "type": "section",
+        "label": {
+          "NL": "1 Page"
+        },
+        "description": "",
+        "name": "1_page",
+        "elementId": "",
+        "className": "",
+        "condScript": "",
+        "condJson": "",
+        "tags": "",
+        "backButton": {
+          "NL": ""
+        },
+        "nextButton": {
+          "NL": ""
+        },
+        "submitButton": {
+          "NL": ""
+        },
+        "submitUrl": "",
+        "submitErrorUrl": "",
+        "pageUrl": "",
+        "questions": [
+          {
+            "id": 522403,
+            "type": "question",
+            "label": {
+              "NL": "Text field "
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "text_field_",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "textfield",
+            "validScript": "",
+            "elementId": "Text_field",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": "Provide answer: mycubes"
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 522404,
+            "type": "question",
+            "label": {
+              "NL": "Text field 2"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "text_field_2",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "textfield",
+            "validScript": "",
+            "elementId": "Text_field_2",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": "Provide answer: mycubes2"
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 522405,
+            "type": "question",
+            "label": {
+              "NL": "Please click the radio button for rechanging "
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "please_click_the_radio_button_for_rechanging_",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "radio",
+            "validScript": "",
+            "elementId": "please_click_the_radio_button_for_rechanging",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": [
+              {
+                "id": 522406,
+                "type": "answeroption",
+                "label": {
+                  "NL": "Rechange"
+                },
+                "description": "",
+                "name": "rechange",
+                "defaultValue": false,
+                "disabled": false,
+                "elementId": "Rechange",
+                "className": "",
+                "condScript": "",
+                "condJson": "",
+                "tooltip": {
+                  "NL": ""
+                },
+                "questions": []
+              }
+            ]
+          },
+          {
+            "id": 522407,
+            "type": "operator",
+            "label": {
+              "NL": "Show Is (If answer is mycubes)"
+            },
+            "description": "",
+            "name": "show_is",
+            "operatorType": "condition",
+            "elementId": "",
+            "className": "",
+            "condScript": "",
+            "condJson": "[{\"action\":\"Show\",\"page\":\"1 page\",\"question\":\"text_field_\",\"operation\":\"is\",\"param\":\"mycubes\"}]",
+            "operatorButton": {
+              "NL": ""
+            },
+            "operands": [
+              {
+                "id": 522408,
+                "type": "question",
+                "label": {
+                  "NL": "Show Is (If answer is mycubes)"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "show_is_mycubes",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "textfield",
+                "validScript": "",
+                "elementId": "show_is_mycubes",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              }
+            ]
+          },
+          {
+            "id": 522409,
+            "type": "operator",
+            "label": {
+              "NL": "Show.Contains (If answer contains my)"
+            },
+            "description": "",
+            "name": "contains_begin",
+            "operatorType": "condition",
+            "elementId": "",
+            "className": "",
+            "condScript": "",
+            "condJson": "[{\"action\":\"Show\",\"page\":\"1 page\",\"question\":\"text_field_\",\"operation\":\"contains\",\"param\":\"my\"}]",
+            "operatorButton": {
+              "NL": ""
+            },
+            "operands": [
+              {
+                "id": 522410,
+                "type": "question",
+                "label": {
+                  "NL": "Show.Contains (If answer contains my)"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "Show_Contains_my",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "textarea",
+                "validScript": "",
+                "elementId": "Show_Contains_my",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              }
+            ]
+          },
+          {
+            "id": 522411,
+            "type": "operator",
+            "label": {
+              "NL": "Show.Contains (If answer contains cu)"
+            },
+            "description": "",
+            "name": "containce_center",
+            "operatorType": "condition",
+            "elementId": "",
+            "className": "",
+            "condScript": "",
+            "condJson": "[{\"action\":\"Show\",\"page\":\"1 page\",\"question\":\"text_field_\",\"operation\":\"contains\",\"param\":\"cu\"}]",
+            "operatorButton": {
+              "NL": ""
+            },
+            "operands": [
+              {
+                "id": 522412,
+                "type": "question",
+                "label": {
+                  "NL": "Show.Contains (If answer contains cu)"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "Show_Contains_cu",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "textlabel",
+                "validScript": "",
+                "elementId": "Show_Contains_cu",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              }
+            ]
+          },
+          {
+            "id": 522413,
+            "type": "operator",
+            "label": {
+              "NL": "Show.Contains (If answer contains bes)"
+            },
+            "description": "",
+            "name": "containce_end",
+            "operatorType": "condition",
+            "elementId": "",
+            "className": "",
+            "condScript": "",
+            "condJson": "[{\"action\":\"Show\",\"page\":\"1 page\",\"question\":\"text_field_\",\"operation\":\"contains\",\"param\":\"bes\"}]",
+            "operatorButton": {
+              "NL": ""
+            },
+            "operands": [
+              {
+                "id": 522414,
+                "type": "question",
+                "label": {
+                  "NL": "Show.Contains (If answer contains bes)"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "Show_Contains_bes",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "textlabel",
+                "validScript": "",
+                "elementId": "Show_Contains_bes",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              }
+            ]
+          },
+          {
+            "id": 522415,
+            "type": "operator",
+            "label": {
+              "NL": "Show Is negative case (show if answer is mycubes12345)"
+            },
+            "description": "",
+            "name": "show_is_negative_case",
+            "operatorType": "condition",
+            "elementId": "",
+            "className": "",
+            "condScript": "",
+            "condJson": "[{\"action\":\"Show\",\"page\":\"1 page\",\"question\":\"text_field_\",\"operation\":\"is\",\"param\":\"mycubes12345\"}]",
+            "operatorButton": {
+              "NL": ""
+            },
+            "operands": [
+              {
+                "id": 522416,
+                "type": "question",
+                "label": {
+                  "NL": "Show Is negative case (show if answer is mycubes12345)"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "show_is_negative_case",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "textlabel",
+                "validScript": "",
+                "elementId": "show_is_negative_case",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 522417,
+        "type": "section",
+        "label": {
+          "NL": "2 Page"
+        },
+        "description": "",
+        "name": "2_page",
+        "elementId": "",
+        "className": "",
+        "condScript": "",
+        "condJson": "",
+        "tags": "",
+        "backButton": {
+          "NL": ""
+        },
+        "nextButton": {
+          "NL": ""
+        },
+        "submitButton": {
+          "NL": ""
+        },
+        "submitUrl": "",
+        "submitErrorUrl": "",
+        "pageUrl": "",
+        "questions": [
+          {
+            "id": 522418,
+            "type": "operator",
+            "label": {
+              "NL": "Show Is not ( show if answer is not mycubes2)"
+            },
+            "description": "",
+            "name": "show_is_not",
+            "operatorType": "condition",
+            "elementId": "",
+            "className": "",
+            "condScript": "",
+            "condJson": "[{\"action\":\"Show\",\"page\":\"1 page\",\"question\":\"text_field_2\",\"operation\":\"is not\",\"param\":\"mycubes2\"}]",
+            "operatorButton": {
+              "NL": ""
+            },
+            "operands": [
+              {
+                "id": 522419,
+                "type": "question",
+                "label": {
+                  "NL": "Show Is not ( show if answer is not mycubes2)"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "Show_Is_Not_mycubes2",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "textfield",
+                "validScript": "",
+                "elementId": "Show_Is_Not_mycubes2",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              }
+            ]
+          },
+          {
+            "id": 522420,
+            "type": "operator",
+            "label": {
+              "NL": "Show.Contains not (show if answer containce not my)"
+            },
+            "description": "",
+            "name": "containce_not_begin",
+            "operatorType": "condition",
+            "elementId": "",
+            "className": "",
+            "condScript": "",
+            "condJson": "[{\"action\":\"Show\",\"page\":\"1 page\",\"question\":\"text_field_2\",\"operation\":\"contains not\",\"param\":\"my\"}]",
+            "operatorButton": {
+              "NL": ""
+            },
+            "operands": [
+              {
+                "id": 522421,
+                "type": "question",
+                "label": {
+                  "NL": "Show.Contains not (show if answer containce not my)"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "Show_Contains_Not_my",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "textfield",
+                "validScript": "",
+                "elementId": "Show_Contains_Not_my",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              }
+            ]
+          },
+          {
+            "id": 522422,
+            "type": "operator",
+            "label": {
+              "NL": "Show.Contains not (show if answer containce not cu)"
+            },
+            "description": "",
+            "name": "containce_not_center",
+            "operatorType": "condition",
+            "elementId": "",
+            "className": "",
+            "condScript": "",
+            "condJson": "[{\"action\":\"Show\",\"page\":\"1 page\",\"question\":\"text_field_2\",\"operation\":\"contains not\",\"param\":\"cu\"}]",
+            "operatorButton": {
+              "NL": ""
+            },
+            "operands": [
+              {
+                "id": 522423,
+                "type": "question",
+                "label": {
+                  "NL": "Show.Contains not (show if answer containce not cu)"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "Show_Contains_Not_cu",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "textfield",
+                "validScript": "",
+                "elementId": "Show_Contains_Not_cu",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              }
+            ]
+          },
+          {
+            "id": 522424,
+            "type": "operator",
+            "label": {
+              "NL": "Show.Contains not (show if answer containce not bes2)"
+            },
+            "description": "",
+            "name": "containce_not_end",
+            "operatorType": "condition",
+            "elementId": "",
+            "className": "",
+            "condScript": "",
+            "condJson": "[{\"action\":\"Show\",\"page\":\"1 page\",\"question\":\"text_field_2\",\"operation\":\"contains not\",\"param\":\"bes2\"}]",
+            "operatorButton": {
+              "NL": ""
+            },
+            "operands": [
+              {
+                "id": 522425,
+                "type": "question",
+                "label": {
+                  "NL": "Show.Contains not (show if answer containce not bes2)"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "Show_Contains_Not_bes2",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "textfield",
+                "validScript": "",
+                "elementId": "Show_Contains_Not_bes2",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              }
+            ]
+          },
+          {
+            "id": 522426,
+            "type": "question",
+            "label": {
+              "NL": "Conditions Show.Is not and Show.Contains not , are fulfilled!"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "conditions_show_is_not_and_contains_not_are_fulfilled",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "textlabel",
+            "validScript": "",
+            "elementId": "conditions_show_is_not_and_contains_not_are_fulfilled",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 522427,
+            "type": "operator",
+            "label": {
+              "NL": "Show.Contains not negative case (show if answer containce not test)"
+            },
+            "description": "",
+            "name": "Show_Contains_not_negative_case",
+            "operatorType": "condition",
+            "elementId": "",
+            "className": "",
+            "condScript": "",
+            "condJson": "[{\"action\":\"Show\",\"page\":\"1 page\",\"question\":\"text_field_2\",\"operation\":\"contains not\",\"param\":\"test\"}]",
+            "operatorButton": {
+              "NL": ""
+            },
+            "operands": [
+              {
+                "id": 522428,
+                "type": "question",
+                "label": {
+                  "NL": "Show.Contains not negative case (show if answer containce not test)"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "Show_Contains_not_negative_case",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "textfield",
+                "validScript": "",
+                "elementId": "Show_Contains_not_negative_case",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 522429,
+        "type": "section",
+        "label": {
+          "NL": "3 Page"
+        },
+        "description": "",
+        "name": "3_page",
+        "elementId": "",
+        "className": "",
+        "condScript": "",
+        "condJson": "",
+        "tags": "",
+        "backButton": {
+          "NL": ""
+        },
+        "nextButton": {
+          "NL": ""
+        },
+        "submitButton": {
+          "NL": ""
+        },
+        "submitUrl": "",
+        "submitErrorUrl": "",
+        "pageUrl": "",
+        "questions": [
+          {
+            "id": 522430,
+            "type": "operator",
+            "label": {
+              "NL": "Hide Is (hide if answer is mycubes)"
+            },
+            "description": "",
+            "name": "hide_is",
+            "operatorType": "condition",
+            "elementId": "",
+            "className": "",
+            "condScript": "",
+            "condJson": "[{\"action\":\"Hide\",\"page\":\"1 page\",\"question\":\"text_field_\",\"operation\":\"is\",\"param\":\"mycubes\"}]",
+            "operatorButton": {
+              "NL": ""
+            },
+            "operands": [
+              {
+                "id": 522431,
+                "type": "question",
+                "label": {
+                  "NL": "Hide Is ( hide if answer is mycubes)"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "hide_is_mycubes",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "textfield",
+                "validScript": "",
+                "elementId": "hide_is_mycubes",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              }
+            ]
+          },
+          {
+            "id": 522432,
+            "type": "operator",
+            "label": {
+              "NL": "Hide.Contains ( hide if answer contains my)"
+            },
+            "description": "",
+            "name": "hide_contains",
+            "operatorType": "condition",
+            "elementId": "",
+            "className": "",
+            "condScript": "",
+            "condJson": "[{\"action\":\"Hide\",\"page\":\"1 page\",\"question\":\"text_field_\",\"operation\":\"contains\",\"param\":\"my\"}]",
+            "operatorButton": {
+              "NL": ""
+            },
+            "operands": [
+              {
+                "id": 522433,
+                "type": "question",
+                "label": {
+                  "NL": "Hide.Contains ( hide if answer contains my)"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "hide_contains_my",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "textfield",
+                "validScript": "",
+                "elementId": "hide_contains_my",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              }
+            ]
+          },
+          {
+            "id": 522434,
+            "type": "operator",
+            "label": {
+              "NL": "Hide.Contains ( hide if answer contains cu)"
+            },
+            "description": "",
+            "name": "hide_contains_the_center_of_the_word",
+            "operatorType": "condition",
+            "elementId": "",
+            "className": "",
+            "condScript": "",
+            "condJson": "[{\"action\":\"Hide\",\"page\":\"1 page\",\"question\":\"text_field_\",\"operation\":\"contains\",\"param\":\"cu\"}]",
+            "operatorButton": {
+              "NL": ""
+            },
+            "operands": [
+              {
+                "id": 522435,
+                "type": "question",
+                "label": {
+                  "NL": "Hide.Contains ( hide if answer contains cu)"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "hide_contains_cu",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "textlabel",
+                "validScript": "",
+                "elementId": "hide_contains_cu",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              }
+            ]
+          },
+          {
+            "id": 522436,
+            "type": "operator",
+            "label": {
+              "NL": "Hide.Contains ( hide if answer contains bes)"
+            },
+            "description": "",
+            "name": "hide_contains_the_end_of_the_word",
+            "operatorType": "condition",
+            "elementId": "",
+            "className": "",
+            "condScript": "",
+            "condJson": "[{\"action\":\"Hide\",\"page\":\"1 page\",\"question\":\"text_field_\",\"operation\":\"contains\",\"param\":\"bes\"}]",
+            "operatorButton": {
+              "NL": ""
+            },
+            "operands": [
+              {
+                "id": 522437,
+                "type": "question",
+                "label": {
+                  "NL": "Hide. Contains ( hide if answer contains bes)"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "hide_contains_bes",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "tag",
+                "validScript": "",
+                "elementId": "hide_contains_bes",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              }
+            ]
+          },
+          {
+            "id": 522438,
+            "type": "question",
+            "label": {
+              "NL": "Conditions Hide.Is  and Hide.Contains, are fulfilled!"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "conditions_hide_is_and_hide_contains_are_fulfilled",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "textlabel",
+            "validScript": "",
+            "elementId": "conditions_hide_is_and_hide_contains_are_fulfilled",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 522439,
+            "type": "operator",
+            "label": {
+              "NL": "Hide Is negative case (hide if answer is mycubes12345)"
+            },
+            "description": "",
+            "name": "hide_is_negative_case",
+            "operatorType": "condition",
+            "elementId": "",
+            "className": "",
+            "condScript": "",
+            "condJson": "[{\"action\":\"Hide\",\"page\":\"1 page\",\"question\":\"text_field_\",\"operation\":\"is\",\"param\":\"mycubes12345\"}]",
+            "operatorButton": {
+              "NL": ""
+            },
+            "operands": [
+              {
+                "id": 522440,
+                "type": "question",
+                "label": {
+                  "NL": "Hide Is negative case (hide if answer is mycubes12345)"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "hide_is_negative_case",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "textlabel",
+                "validScript": "",
+                "elementId": "hide_is_negative_case",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 522441,
+        "type": "section",
+        "label": {
+          "NL": "4 Page"
+        },
+        "description": "",
+        "name": "4_page",
+        "elementId": "",
+        "className": "",
+        "condScript": "",
+        "condJson": "",
+        "tags": "",
+        "backButton": {
+          "NL": ""
+        },
+        "nextButton": {
+          "NL": ""
+        },
+        "submitButton": {
+          "NL": ""
+        },
+        "submitUrl": "",
+        "submitErrorUrl": "",
+        "pageUrl": "",
+        "questions": [
+          {
+            "id": 522442,
+            "type": "operator",
+            "label": {
+              "NL": "Hide.Contains not (hide if answer contains not my )"
+            },
+            "description": "",
+            "name": "hide_is_not_613534",
+            "operatorType": "condition",
+            "elementId": "",
+            "className": "",
+            "condScript": "",
+            "condJson": "[{\"action\":\"Hide\",\"page\":\"1 page\",\"question\":\"text_field_2\",\"operation\":\"is not\",\"param\":\"my\"}]",
+            "operatorButton": {
+              "NL": ""
+            },
+            "operands": [
+              {
+                "id": 522443,
+                "type": "question",
+                "label": {
+                  "NL": "Hide.Contains not (hide if answer contains not my )"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "hide_contains_not_my",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "tag",
+                "validScript": "",
+                "elementId": "hide_contains_not_my",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              }
+            ]
+          },
+          {
+            "id": 522444,
+            "type": "operator",
+            "label": {
+              "NL": "Hide. Contains not (hide if answer contains not cu )"
+            },
+            "description": "",
+            "name": "hide_is_not5",
+            "operatorType": "condition",
+            "elementId": "",
+            "className": "",
+            "condScript": "",
+            "condJson": "[{\"action\":\"Hide\",\"page\":\"1 page\",\"question\":\"text_field_2\",\"operation\":\"is not\",\"param\":\"cu\"}]",
+            "operatorButton": {
+              "NL": ""
+            },
+            "operands": [
+              {
+                "id": 522445,
+                "type": "question",
+                "label": {
+                  "NL": "Hide. Contains not (hide if answer contains not cu )"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "hide_contains_not_cu",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "tag",
+                "validScript": "",
+                "elementId": "hide_contains_not_cu",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              }
+            ]
+          },
+          {
+            "id": 522446,
+            "type": "operator",
+            "label": {
+              "NL": "Hide. Contains not (hide if answer contains not bes2 )"
+            },
+            "description": "",
+            "name": "hide_is_not5_613541",
+            "operatorType": "condition",
+            "elementId": "",
+            "className": "",
+            "condScript": "",
+            "condJson": "[{\"action\":\"Hide\",\"page\":\"1 page\",\"question\":\"text_field_2\",\"operation\":\"is not\",\"param\":\"bes2\"}]",
+            "operatorButton": {
+              "NL": ""
+            },
+            "operands": [
+              {
+                "id": 522447,
+                "type": "question",
+                "label": {
+                  "NL": "Hide. Contains not (hide if answer contains not bes2 )"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "hide_contains_not_bes2",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "tag",
+                "validScript": "",
+                "elementId": "hide_contains_not_bes2",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              }
+            ]
+          },
+          {
+            "id": 522448,
+            "type": "question",
+            "label": {
+              "NL": "Conditions Hide.Contains not , are fulfilled"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "conditions_hide_and_contains_not_are_fulfilled",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "textlabel",
+            "validScript": "",
+            "elementId": "conditions_hide_and_contains_not_are_fulfilled",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 522449,
+            "type": "operator",
+            "label": {
+              "NL": "Hide Is not (hide if answer is not mycubes2)"
+            },
+            "description": "",
+            "name": "hide_is_not",
+            "operatorType": "condition",
+            "elementId": "",
+            "className": "",
+            "condScript": "",
+            "condJson": "[{\"action\":\"Hide\",\"page\":\"1 page\",\"question\":\"text_field_2\",\"operation\":\"is not\",\"param\":\"mycubes2\"}]",
+            "operatorButton": {
+              "NL": ""
+            },
+            "operands": [
+              {
+                "id": 522450,
+                "type": "question",
+                "label": {
+                  "NL": "Hide Is not (hide if answer is not mycubes2)"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "hide_is_not_mycubes2",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "textlabel",
+                "validScript": "",
+                "elementId": "hide_is_not_mycubes2",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              }
+            ]
+          },
+          {
+            "id": 522451,
+            "type": "operator",
+            "label": {
+              "NL": "Hide Contains not negative case (hide if answer contains not test)"
+            },
+            "description": "",
+            "name": "hide_is_negative_case_615786",
+            "operatorType": "condition",
+            "elementId": "",
+            "className": "",
+            "condScript": "",
+            "condJson": "[{\"action\":\"Hide\",\"page\":\"1 page\",\"question\":\"text_field_2\",\"operation\":\"contains not\",\"param\":\"test\"}]",
+            "operatorButton": {
+              "NL": ""
+            },
+            "operands": [
+              {
+                "id": 522452,
+                "type": "question",
+                "label": {
+                  "NL": "Hide Contains not negative case (hide if answer containce not test)"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "hide_contains_not_negative_case",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "textlabel",
+                "validScript": "",
+                "elementId": "hide_contains_not_negative_case",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 522453,
+        "type": "section",
+        "label": {
+          "NL": "5 Page"
+        },
+        "description": "",
+        "name": "5_page",
+        "elementId": "",
+        "className": "",
+        "condScript": "",
+        "condJson": "[{\"action\":\"Hide\",\"page\":\"1 page\",\"question\":\"text_field_\",\"operation\":\"is\",\"param\":\"mycubes\"}]",
+        "tags": "",
+        "backButton": {
+          "NL": ""
+        },
+        "nextButton": {
+          "NL": ""
+        },
+        "submitButton": {
+          "NL": ""
+        },
+        "submitUrl": "",
+        "submitErrorUrl": "",
+        "pageUrl": "",
+        "questions": []
+      },
+      {
+        "id": 522454,
+        "type": "section",
+        "label": {
+          "NL": "6 Page"
+        },
+        "description": "",
+        "name": "6_page",
+        "elementId": "",
+        "className": "",
+        "condScript": "",
+        "condJson": "",
+        "tags": "",
+        "backButton": {
+          "NL": ""
+        },
+        "nextButton": {
+          "NL": ""
+        },
+        "submitButton": {
+          "NL": ""
+        },
+        "submitUrl": "",
+        "submitErrorUrl": "",
+        "pageUrl": "",
+        "questions": [
+          {
+            "id": 522455,
+            "type": "question",
+            "label": {
+              "NL": "Condition to the options:"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "condition_options",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "radio",
+            "validScript": "",
+            "elementId": "condition_options",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": [
+              {
+                "id": 522456,
+                "type": "answeroption",
+                "label": {
+                  "NL": "Show if answer is mycubes"
+                },
+                "description": "",
+                "name": "Show_if_answer_is_mycubes",
+                "defaultValue": false,
+                "disabled": false,
+                "elementId": "Show_if_answer_is_mycubes",
+                "className": "",
+                "condScript": "",
+                "condJson": "[{\"action\":\"Show\",\"page\":\"1 page\",\"question\":\"text_field_\",\"operation\":\"is\",\"param\":\"mycubes\"}]",
+                "tooltip": {
+                  "NL": ""
+                },
+                "questions": []
+              },
+              {
+                "id": 522457,
+                "type": "answeroption",
+                "label": {
+                  "NL": "Hide if answer is mycubes"
+                },
+                "description": "",
+                "name": "Hide_if_answer_is_mycubes",
+                "defaultValue": false,
+                "disabled": false,
+                "elementId": "Hide_if_answer_is_mycubes",
+                "className": "",
+                "condScript": "",
+                "condJson": "[{\"action\":\"Hide\",\"page\":\"1 page\",\"question\":\"text_field_\",\"operation\":\"is\",\"param\":\"mycubes\"}]",
+                "tooltip": {
+                  "NL": ""
+                },
+                "questions": []
+              },
+              {
+                "id": 522458,
+                "type": "answeroption",
+                "label": {
+                  "NL": "Show if answer is contains mycub"
+                },
+                "description": "",
+                "name": "Show_if_answer_is_contains_mycub",
+                "defaultValue": false,
+                "disabled": false,
+                "elementId": "Show_if_answer_is_contains_mycub",
+                "className": "",
+                "condScript": "",
+                "condJson": "[{\"action\":\"Show\",\"page\":\"1 page\",\"question\":\"text_field_\",\"operation\":\"contains\",\"param\":\"mycub\"}]",
+                "tooltip": {
+                  "NL": ""
+                },
+                "questions": []
+              }
+            ]
+          },
+          {
+            "id": 522459,
+            "type": "operator",
+            "label": {
+              "NL": "And condition"
+            },
+            "description": "",
+            "name": "and_condition",
+            "operatorType": "condition",
+            "elementId": "and_condition",
+            "className": "",
+            "condScript": "",
+            "condJson": "[{\"action\":\"Show\",\"page\":\"1 page\",\"question\":\"text_field_\",\"operation\":\"is\",\"param\":\"mycubes\"},{\"action\":\"And\",\"page\":\"1 page\",\"question\":\"text_field_2\",\"operation\":\"is\",\"param\":\"mycubes2\"}]",
+            "operatorButton": {
+              "NL": ""
+            },
+            "operands": [
+              {
+                "id": 522460,
+                "type": "question",
+                "label": {
+                  "NL": "And condition is fulfilled!"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "and_condition_is_fulfilled",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "textlabel",
+                "validScript": "",
+                "elementId": "and_condition_is_fulfilled",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              }
+            ]
+          },
+          {
+            "id": 522461,
+            "type": "operator",
+            "label": {
+              "NL": "Or condition"
+            },
+            "description": "",
+            "name": "or_condition",
+            "operatorType": "condition",
+            "elementId": "or_condition",
+            "className": "",
+            "condScript": "",
+            "condJson": "[{\"action\":\"Show\",\"page\":\"1 page\",\"question\":\"text_field_\",\"operation\":\"is\",\"param\":\"test\"},{\"action\":\"Or\",\"page\":\"1 page\",\"question\":\"text_field_2\",\"operation\":\"is\",\"param\":\"mycubes2\"}]",
+            "operatorButton": {
+              "NL": ""
+            },
+            "operands": [
+              {
+                "id": 522462,
+                "type": "question",
+                "label": {
+                  "NL": "Or condition is fulfilled!"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "or_condition_is_fulfilled",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "textlabel",
+                "validScript": "",
+                "elementId": "or_condition_is_fulfilled",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "version": 0,
+    "token": "nalZ2arq"
+  }
+}

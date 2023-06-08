@@ -1,0 +1,2969 @@
+{
+  "hash": "daGqJQZy",
+  "name": "ATF Form for API functions 3",
+  "description": "This form is for testing nextPage, prevPage and goToPage API functions",
+  "tags": "",
+  "company": "1367",
+  "version": "0.01",
+  "theme": "",
+  "themeViewUri": "",
+  "serviceUri": "",
+  "servicePackageId": "",
+  "serviceTemplateName": "",
+  "prefillServiceTemplateName": "",
+  "jsDependencies": "[]",
+  "data": {
+    "id": 514890,
+    "type": "questionnaire",
+    "name": "ATF Form for API functions 3",
+    "description": "This form is for testing nextPage, prevPage and goToPage API functions",
+    "successContent": {
+      "NL": ""
+    },
+    "errorContent": {
+      "NL": ""
+    },
+    "submitUrl": "",
+    "submitErrorUrl": "",
+    "tags": "",
+    "backButton": {
+      "NL": ""
+    },
+    "nextButton": {
+      "NL": ""
+    },
+    "submitButton": {
+      "NL": ""
+    },
+    "locales": "NL,EN",
+    "defLocale": "NL",
+    "company": "ATF_Company",
+    "user": "ATF_Company_AdminAndUser",
+    "publishDate": "22-07-2022 12:38:15",
+    "publishVersion": "0.01",
+    "pages": [
+      {
+        "id": 514891,
+        "type": "section",
+        "label": {
+          "NL": "Page 1 label NL",
+          "EN": "Page 1 label EN"
+        },
+        "description": "",
+        "name": "Page 1 name",
+        "elementId": "",
+        "className": "",
+        "condScript": "",
+        "condJson": "",
+        "tags": "",
+        "backButton": {
+          "NL": ""
+        },
+        "nextButton": {
+          "NL": ""
+        },
+        "submitButton": {
+          "NL": ""
+        },
+        "submitUrl": "",
+        "submitErrorUrl": "",
+        "pageUrl": "",
+        "questions": [
+          {
+            "id": 514892,
+            "type": "question",
+            "label": {
+              "NL": "TextField label NL",
+              "EN": "TextField label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "TextField name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "textfield",
+            "validScript": "",
+            "elementId": "TextField_elementID",
+            "className": "TextField_class",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 514893,
+            "type": "question",
+            "label": {
+              "NL": "TextField with Hint and Mask label NL",
+              "EN": "TextField with Hint and Mask label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "TextField with Hint and Mask name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "textfield",
+            "validScript": "",
+            "elementId": "TextField_with_Hint_and_Mask_id",
+            "className": "",
+            "hint": {
+              "NL": "9876543210",
+              "EN": "0123456789"
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 514894,
+            "type": "question",
+            "label": {
+              "NL": "TextArea label NL",
+              "EN": "TextArea label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "TextArea name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "textarea",
+            "validScript": "",
+            "elementId": "TextArea_elementID",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "This is default value for text area NL"
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 514895,
+            "type": "question",
+            "label": {
+              "NL": "TextLabel label NL",
+              "EN": "TextLabel label EN"
+            },
+            "description": {
+              "NL": "<p>NL Some text from TextLabel content with &nbsp;<span style=\"line-height: 1.4285;\">link,&nbsp;</span><span style=\"line-height: 1.4285;\">inside. </span><span style=\"line-height: 1.4285;\">And link is <a href=\"http://www.formsengine.io\">here</a>. </span><br></p>",
+              "EN": "EN Some text from TextLabel content"
+            },
+            "name": "TextLabel name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "textlabel",
+            "validScript": "",
+            "elementId": "TextLabel_elementID",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 514896,
+            "type": "question",
+            "label": {
+              "NL": "DateField calendar label NL",
+              "EN": "DateField calendar label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField calendar name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_calendar_elementID",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 514897,
+            "type": "question",
+            "label": {
+              "NL": "DateField dropdown label NL",
+              "EN": "DateField dropdown label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "DateField dropdown name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "date",
+            "validScript": "",
+            "elementId": "DateField_dropdown_elementID",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "dropdowns",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 514898,
+            "type": "question",
+            "label": {
+              "NL": "Radiobuttons label NL",
+              "EN": "Radiobuttons label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Radiobuttons name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "radio",
+            "validScript": "",
+            "elementId": "Radiobuttons_elementID",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": [
+              {
+                "id": 514899,
+                "type": "answeroption",
+                "label": {
+                  "NL": "Radiobuttons option label NL",
+                  "EN": "Radiobuttons option label EN"
+                },
+                "description": "",
+                "name": "Radiobuttons option name",
+                "defaultValue": false,
+                "disabled": false,
+                "elementId": "Radiobuttons_option_elementID",
+                "className": "",
+                "condScript": "",
+                "condJson": "",
+                "tooltip": {
+                  "NL": ""
+                },
+                "questions": []
+              },
+              {
+                "id": 514900,
+                "type": "answeroption",
+                "label": {
+                  "NL": "Radiobuttons option with Pre-selected checkbox label NL",
+                  "EN": "Radiobuttons option with Pre-selected checkbox label EN"
+                },
+                "description": "",
+                "name": "Radiobuttons option with Pre-selected checkbox name",
+                "defaultValue": true,
+                "disabled": false,
+                "elementId": "Radiobuttons_option_with_Pre_selected_checkbox_id",
+                "className": "",
+                "condScript": "",
+                "condJson": "",
+                "tooltip": {
+                  "NL": ""
+                },
+                "questions": []
+              },
+              {
+                "id": 514901,
+                "type": "answeroption",
+                "label": {
+                  "NL": "Radiobuttons option with Disabled checkbox label NL",
+                  "EN": "Radiobuttons option with Disabled checkbox label EN"
+                },
+                "description": "",
+                "name": "Radiobuttons option with Disabled checkbox name",
+                "defaultValue": false,
+                "disabled": true,
+                "elementId": "Radiobuttons_option_with_Disabled_checkbox_id",
+                "className": "",
+                "condScript": "",
+                "condJson": "",
+                "tooltip": {
+                  "NL": ""
+                },
+                "questions": []
+              }
+            ]
+          },
+          {
+            "id": 514902,
+            "type": "question",
+            "label": {
+              "NL": "Checkboxes label NL",
+              "EN": "Checkboxes label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Checkboxes name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "checkbox",
+            "validScript": "",
+            "elementId": "Checkboxes_elementID",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": [
+              {
+                "id": 514903,
+                "type": "answeroption",
+                "label": {
+                  "NL": "Checkboxes option label NL",
+                  "EN": "Checkboxes option label EN"
+                },
+                "description": "",
+                "name": "Checkboxes option name",
+                "defaultValue": false,
+                "disabled": false,
+                "elementId": "Checkboxes_option_elementID",
+                "className": "",
+                "condScript": "",
+                "condJson": "",
+                "tooltip": {
+                  "NL": ""
+                },
+                "questions": []
+              },
+              {
+                "id": 514904,
+                "type": "answeroption",
+                "label": {
+                  "NL": "Checkboxes option with Pre-selected checkbox label NL",
+                  "EN": "Checkboxes option with Pre-selected checkbox label EN"
+                },
+                "description": "",
+                "name": "Checkboxes option with Pre-selected checkbox name",
+                "defaultValue": true,
+                "disabled": false,
+                "elementId": "Checkboxes_option_with_Pre_selected_checkbox_name_id",
+                "className": "",
+                "condScript": "",
+                "condJson": "",
+                "tooltip": {
+                  "NL": ""
+                },
+                "questions": []
+              },
+              {
+                "id": 514905,
+                "type": "answeroption",
+                "label": {
+                  "NL": "Checkboxes option with Disabled checkbox label NL",
+                  "EN": "Checkboxes option with Disabled checkbox label EN"
+                },
+                "description": "",
+                "name": "Checkboxes option with Disabled checkbox name",
+                "defaultValue": false,
+                "disabled": true,
+                "elementId": "Checkboxes_option_with_Disabled_checkbox_name_id",
+                "className": "",
+                "condScript": "",
+                "condJson": "",
+                "tooltip": {
+                  "NL": ""
+                },
+                "questions": []
+              }
+            ]
+          },
+          {
+            "id": 514906,
+            "type": "question",
+            "label": {
+              "NL": "Dropdown label NL",
+              "EN": "Dropdown label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Dropdown name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "dropdown",
+            "validScript": "",
+            "elementId": "Dropdown_elementID",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": [
+              {
+                "id": 514907,
+                "type": "answeroption",
+                "label": {
+                  "NL": "Dropdown option label NL",
+                  "EN": "Dropdown option label EN"
+                },
+                "description": "",
+                "name": "Dropdown option name",
+                "defaultValue": false,
+                "disabled": false,
+                "elementId": "Dropdown_option_elementID",
+                "className": "",
+                "condScript": "",
+                "condJson": "",
+                "tooltip": {
+                  "NL": ""
+                },
+                "questions": []
+              },
+              {
+                "id": 514908,
+                "type": "answeroption",
+                "label": {
+                  "NL": "Dropdown option with Pre-selected checkbox label NL",
+                  "EN": "Dropdown option with Pre-selected checkbox label EN"
+                },
+                "description": "",
+                "name": "Dropdown option with Pre-selected checkbox name",
+                "defaultValue": true,
+                "disabled": false,
+                "elementId": "Dropdown_option_with_Pre_selected_checkbox_id",
+                "className": "",
+                "condScript": "",
+                "condJson": "",
+                "tooltip": {
+                  "NL": ""
+                },
+                "questions": []
+              },
+              {
+                "id": 514909,
+                "type": "answeroption",
+                "label": {
+                  "NL": "Dropdown option with Disabled checkbox label NL",
+                  "EN": "Dropdown option with Disabled checkbox label EN"
+                },
+                "description": "",
+                "name": "Dropdown option with Disabled checkbox name",
+                "defaultValue": false,
+                "disabled": true,
+                "elementId": "Dropdown_option_with_Disabled_checkbox_id",
+                "className": "",
+                "condScript": "",
+                "condJson": "",
+                "tooltip": {
+                  "NL": ""
+                },
+                "questions": []
+              }
+            ]
+          },
+          {
+            "id": 514910,
+            "type": "question",
+            "label": {
+              "NL": "Upload field label NL",
+              "EN": "Upload field label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Upload field name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "upload",
+            "validScript": "",
+            "elementId": "upload_field_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 514911,
+            "type": "question",
+            "label": {
+              "NL": "Repeat Upload label NL",
+              "EN": "Repeat Upload label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Repeat Upload name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "repeatupload",
+            "validScript": "",
+            "elementId": "repeat_upload_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 514912,
+            "type": "question",
+            "label": {
+              "NL": "Async upload label NL",
+              "EN": "Async upload label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Async upload name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "asyncupload",
+            "validScript": "",
+            "elementId": "async_upload_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 514913,
+            "type": "question",
+            "label": {
+              "NL": "Async multi upload label NL",
+              "EN": "Async multi upload label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Async multi upload name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "asyncmultiupload",
+            "validScript": "",
+            "elementId": "Async_multi_upload_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 514914,
+            "type": "group",
+            "name": "Group general",
+            "description": "",
+            "elementId": "",
+            "className": "",
+            "tags": "",
+            "children": [
+              {
+                "id": 514915,
+                "type": "question",
+                "label": {
+                  "NL": "TextField under group label NL",
+                  "EN": "TextField under group label EN"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "TextField under group name",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "textfield",
+                "validScript": "",
+                "elementId": "TextField_ under_group_elementID",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              },
+              {
+                "id": 514916,
+                "type": "question",
+                "label": {
+                  "NL": "DateField calendar under group label NL",
+                  "EN": "DateField calendar under group label EN"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "DateField calendar under group name",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "date",
+                "validScript": "",
+                "elementId": "DateField_calendar_under_group_elementID",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              },
+              {
+                "id": 514917,
+                "type": "question",
+                "label": {
+                  "NL": "Upload field under group label NL",
+                  "EN": "Upload field under group label EN"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "Upload field under group name",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "upload",
+                "validScript": "",
+                "elementId": "upload_field_under_group_id",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              },
+              {
+                "id": 514918,
+                "type": "question",
+                "label": {
+                  "NL": "Radiobuttons under group label NL",
+                  "EN": "Radiobuttons under group label EN"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "Radiobuttons under group name",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "radio",
+                "validScript": "",
+                "elementId": "Radiobuttons_under_group_elementID",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": [
+                  {
+                    "id": 514919,
+                    "type": "answeroption",
+                    "label": {
+                      "NL": "Radiobuttons option under group label NL",
+                      "EN": "Radiobuttons option under group label EN"
+                    },
+                    "description": "",
+                    "name": "Radiobuttons option under group name",
+                    "defaultValue": false,
+                    "disabled": false,
+                    "elementId": "Radiobuttons_option_under_group_elementID",
+                    "className": "",
+                    "condScript": "",
+                    "condJson": "",
+                    "tooltip": {
+                      "NL": ""
+                    },
+                    "questions": []
+                  },
+                  {
+                    "id": 514920,
+                    "type": "answeroption",
+                    "label": {
+                      "NL": "Radiobuttons option with Pre-selected under group label NL",
+                      "EN": "Radiobuttons option with Pre-selected under group label EN"
+                    },
+                    "description": "",
+                    "name": "Radiobuttons option with Pre-selected under group name",
+                    "defaultValue": true,
+                    "disabled": false,
+                    "elementId": "Radiobuttons_option_with_Pre_selected_under_group_id",
+                    "className": "",
+                    "condScript": "",
+                    "condJson": "",
+                    "tooltip": {
+                      "NL": ""
+                    },
+                    "questions": []
+                  },
+                  {
+                    "id": 514921,
+                    "type": "answeroption",
+                    "label": {
+                      "NL": "Radiobuttons option with Disabled under group label NL",
+                      "EN": "Radiobuttons option with Disabled under group label EN"
+                    },
+                    "description": "",
+                    "name": "Radiobuttons option with Disabled under group name",
+                    "defaultValue": false,
+                    "disabled": true,
+                    "elementId": "Radiobuttons_option_with_Disabled_under_group_id",
+                    "className": "",
+                    "condScript": "",
+                    "condJson": "",
+                    "tooltip": {
+                      "NL": ""
+                    },
+                    "questions": []
+                  }
+                ]
+              },
+              {
+                "id": 514922,
+                "type": "question",
+                "label": {
+                  "NL": "Widget under group label NL",
+                  "EN": "Widget under group label EN"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "Widget under group name",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "widget",
+                "validScript": "",
+                "elementId": "Widget_under_group_elementID",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "Widget_template_file_general",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              }
+            ]
+          },
+          {
+            "id": 514923,
+            "type": "operator",
+            "label": {
+              "NL": "Repeater label NL",
+              "EN": "Repeater label EN"
+            },
+            "description": "",
+            "name": "Repeater name",
+            "operatorType": "repeater",
+            "elementId": "repeater_id",
+            "className": "",
+            "condScript": "",
+            "condJson": "",
+            "operatorButton": {
+              "NL": ""
+            },
+            "operands": [
+              {
+                "id": 514924,
+                "type": "question",
+                "label": {
+                  "NL": "TextField under repeater label NL",
+                  "EN": "TextField under repeater label EN"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "TextField under repeater name",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "textfield",
+                "validScript": "",
+                "elementId": "TextField_ under_repeater_elementID",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              },
+              {
+                "id": 514925,
+                "type": "question",
+                "label": {
+                  "NL": "DateField calendar under repeater label NL",
+                  "EN": "DateField calendar under repeater label EN"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "DateField calendar under repeater name",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "date",
+                "validScript": "",
+                "elementId": "DateField_calendar_under_repeater_elementID",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              },
+              {
+                "id": 514926,
+                "type": "question",
+                "label": {
+                  "NL": "Upload field under repeater label NL",
+                  "EN": "Upload field under repeater label EN"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "Upload field under repeater name",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "upload",
+                "validScript": "",
+                "elementId": "upload_field_under_repeater_id",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              },
+              {
+                "id": 514927,
+                "type": "question",
+                "label": {
+                  "NL": "Radiobuttons under repeater label NL",
+                  "EN": "Radiobuttons under repeater label EN"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "Radiobuttons under repeater name",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "radio",
+                "validScript": "",
+                "elementId": "Radiobuttons_under_repeater_elementID",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": [
+                  {
+                    "id": 514928,
+                    "type": "answeroption",
+                    "label": {
+                      "NL": "Radiobuttons option under repeater label NL",
+                      "EN": "Radiobuttons option under repeater label EN"
+                    },
+                    "description": "",
+                    "name": "Radiobuttons option under repeater name",
+                    "defaultValue": false,
+                    "disabled": false,
+                    "elementId": "Radiobuttons_option_under_repeater_elementID",
+                    "className": "",
+                    "condScript": "",
+                    "condJson": "",
+                    "tooltip": {
+                      "NL": ""
+                    },
+                    "questions": []
+                  },
+                  {
+                    "id": 514929,
+                    "type": "answeroption",
+                    "label": {
+                      "NL": "Radiobuttons option with Pre-selected under repeater label NL",
+                      "EN": "Radiobuttons option with Pre-selected under repeater label EN"
+                    },
+                    "description": "",
+                    "name": "Radiobuttons option with Pre-selected under repeater name",
+                    "defaultValue": true,
+                    "disabled": false,
+                    "elementId": "Radiobuttons_option_with_Pre_selected_under_repeater_id",
+                    "className": "",
+                    "condScript": "",
+                    "condJson": "",
+                    "tooltip": {
+                      "NL": ""
+                    },
+                    "questions": []
+                  },
+                  {
+                    "id": 514930,
+                    "type": "answeroption",
+                    "label": {
+                      "NL": "Radiobuttons option with Disabled under repeater label NL",
+                      "EN": "Radiobuttons option with Disabled under repeater label EN"
+                    },
+                    "description": "",
+                    "name": "Radiobuttons option with Disabled under repeater name",
+                    "defaultValue": false,
+                    "disabled": true,
+                    "elementId": "Radiobuttons_option_with_Disabled_under_repeater_id",
+                    "className": "",
+                    "condScript": "",
+                    "condJson": "",
+                    "tooltip": {
+                      "NL": ""
+                    },
+                    "questions": []
+                  }
+                ]
+              },
+              {
+                "id": 514931,
+                "type": "question",
+                "label": {
+                  "NL": "Widget under repeater label NL",
+                  "EN": "Widget under repeater label EN"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "Widget under repeater name",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "widget",
+                "validScript": "",
+                "elementId": "Widget_under_repeater_elementID",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "Widget_template_file_general",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              }
+            ]
+          },
+          {
+            "id": 514932,
+            "type": "operator",
+            "label": {
+              "NL": "Wizard condition Is  Show NL",
+              "EN": "Wizard condition Is  Show EN"
+            },
+            "description": "",
+            "name": "Wizard condition Is Show",
+            "operatorType": "condition",
+            "elementId": "wizard_condition_is_show_id",
+            "className": "",
+            "condScript": "",
+            "condJson": "[{\"action\":\"Show\",\"page\":\"Page 1 label NL\",\"question\":\"TextField name\",\"operation\":\"is\",\"param\":\"Is\"}]",
+            "operatorButton": {
+              "NL": ""
+            },
+            "operands": [
+              {
+                "id": 514933,
+                "type": "question",
+                "label": {
+                  "NL": "TextField 1 NL",
+                  "EN": "TextField 1 EN"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "TextField 1",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "textfield",
+                "validScript": "",
+                "elementId": "TextField_1_id",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              }
+            ]
+          },
+          {
+            "id": 514934,
+            "type": "operator",
+            "label": {
+              "NL": "Wizard condition Contains not Show NL",
+              "EN": "Wizard condition Contains not Show EN"
+            },
+            "description": "",
+            "name": "Wizard condition Contains not Show",
+            "operatorType": "condition",
+            "elementId": "wizard_condition_contains_not_show_id",
+            "className": "",
+            "condScript": "",
+            "condJson": "[{\"action\":\"Show\",\"page\":\"Page 1 label NL\",\"question\":\"TextField name\",\"operation\":\"contains not\",\"param\":\"Contains not\"}]",
+            "operatorButton": {
+              "NL": ""
+            },
+            "operands": [
+              {
+                "id": 514935,
+                "type": "question",
+                "label": {
+                  "NL": "TextField 2 NL",
+                  "EN": "TextField 2 EN"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "TextField 2",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "textfield",
+                "validScript": "",
+                "elementId": "TextField_2_id",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              }
+            ]
+          },
+          {
+            "id": 514936,
+            "type": "operator",
+            "label": {
+              "NL": "Wizard condition Is not Show NL",
+              "EN": "Wizard condition Is not Show EN"
+            },
+            "description": "",
+            "name": "Wizard condition Is not Show",
+            "operatorType": "condition",
+            "elementId": "wizard_condition_is_not_show_id",
+            "className": "",
+            "condScript": "",
+            "condJson": "[{\"action\":\"Show\",\"page\":\"Page 1 label NL\",\"question\":\"TextField name\",\"operation\":\"is not\",\"param\":\"Is not\"}]",
+            "operatorButton": {
+              "NL": ""
+            },
+            "operands": [
+              {
+                "id": 514937,
+                "type": "question",
+                "label": {
+                  "NL": "TextField label general NL",
+                  "EN": "TextField label general EN"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "TextField name general",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "textfield",
+                "validScript": "",
+                "elementId": "TextField_general_id",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              }
+            ]
+          },
+          {
+            "id": 514938,
+            "type": "operator",
+            "label": {
+              "NL": "Wizard condition Show And NL",
+              "EN": "Wizard condition Show And EN"
+            },
+            "description": "",
+            "name": "Wizard condition Show And",
+            "operatorType": "condition",
+            "elementId": "wizard_condition_show_and_id",
+            "className": "",
+            "condScript": "",
+            "condJson": "[{\"action\":\"Show\",\"page\":\"Page 1 label NL\",\"question\":\"TextField name\",\"operation\":\"is\",\"param\":\"Show Condition with And 1\"},{\"action\":\"And\",\"page\":\"Page 1 label NL\",\"question\":\"TextField with Hint and Mask name\",\"operation\":\"is\",\"param\":\"Show Condition with And 2\"}]",
+            "operatorButton": {
+              "NL": ""
+            },
+            "operands": [
+              {
+                "id": 514939,
+                "type": "question",
+                "label": {
+                  "NL": "TextField 3 NL",
+                  "EN": "TextField 3 EN"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "TextField 3",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "textfield",
+                "validScript": "",
+                "elementId": "TextField_3_id",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              }
+            ]
+          },
+          {
+            "id": 514940,
+            "type": "operator",
+            "label": {
+              "NL": "Wizard condition Hide And NL",
+              "EN": "Wizard condition Hide And EN"
+            },
+            "description": "",
+            "name": "Wizard condition Hide And",
+            "operatorType": "condition",
+            "elementId": "wizard_condition_hide_and_id",
+            "className": "",
+            "condScript": "",
+            "condJson": "[{\"action\":\"Hide\",\"page\":\"Page 1 label NL\",\"question\":\"TextField name\",\"operation\":\"is\",\"param\":\"Hide Condition with And 1\"},{\"action\":\"And\",\"page\":\"Page 1 label NL\",\"question\":\"TextField with Hint and Mask name\",\"operation\":\"is\",\"param\":\"Hide Condition with And 2\"}]",
+            "operatorButton": {
+              "NL": ""
+            },
+            "operands": [
+              {
+                "id": 514941,
+                "type": "question",
+                "label": {
+                  "NL": "TextField 4 NL",
+                  "EN": "TextField 4 EN"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "TextField 4",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "textfield",
+                "validScript": "",
+                "elementId": "TextField_4_id",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 514942,
+        "type": "section",
+        "label": {
+          "NL": "Page 2 label NL",
+          "EN": "Page 2 label EN"
+        },
+        "description": "",
+        "name": "Page 2 name",
+        "elementId": "",
+        "className": "",
+        "condScript": "",
+        "condJson": "",
+        "tags": "",
+        "backButton": {
+          "NL": ""
+        },
+        "nextButton": {
+          "NL": ""
+        },
+        "submitButton": {
+          "NL": ""
+        },
+        "submitUrl": "",
+        "submitErrorUrl": "",
+        "pageUrl": "",
+        "questions": [
+          {
+            "id": 514943,
+            "type": "operator",
+            "label": {
+              "NL": "Wizard condition Contains Show NL",
+              "EN": "Wizard condition Contains Show EN"
+            },
+            "description": "",
+            "name": "Wizard condition Contains Show",
+            "operatorType": "condition",
+            "elementId": "wizard_condition_contains_show_id",
+            "className": "",
+            "condScript": "",
+            "condJson": "[{\"action\":\"Show\",\"page\":\"Page 1 label NL\",\"question\":\"TextField name\",\"operation\":\"contains\",\"param\":\"Contains\"}]",
+            "operatorButton": {
+              "NL": ""
+            },
+            "operands": [
+              {
+                "id": 514944,
+                "type": "question",
+                "label": {
+                  "NL": "TextField 5 NL",
+                  "EN": "TextField 5 EN"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "TextField 5",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "textfield",
+                "validScript": "",
+                "elementId": "TextField_5_id",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              }
+            ]
+          },
+          {
+            "id": 514945,
+            "type": "operator",
+            "label": {
+              "NL": "Wizard condition Is Hide NL",
+              "EN": "Wizard condition Is Hide EN"
+            },
+            "description": "",
+            "name": "Wizard condition Is Hide",
+            "operatorType": "condition",
+            "elementId": "wizard_condition_is_hide_id",
+            "className": "",
+            "condScript": "",
+            "condJson": "[{\"action\":\"Hide\",\"page\":\"Page 1 label NL\",\"question\":\"TextField name\",\"operation\":\"is\",\"param\":\"Is\"}]",
+            "operatorButton": {
+              "NL": ""
+            },
+            "operands": [
+              {
+                "id": 514946,
+                "type": "question",
+                "label": {
+                  "NL": "TextField 6 NL",
+                  "EN": "TextField 6 EN"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "TextField 6",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "textfield",
+                "validScript": "",
+                "elementId": "TextField_6_id",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              }
+            ]
+          },
+          {
+            "id": 514947,
+            "type": "operator",
+            "label": {
+              "NL": "Wizard condition Contains Hide NL",
+              "EN": "Wizard condition Contains Hide EN"
+            },
+            "description": "",
+            "name": "Wizard condition Contains Hide",
+            "operatorType": "condition",
+            "elementId": "wizard_condition_contains_hide_id",
+            "className": "",
+            "condScript": "",
+            "condJson": "[{\"action\":\"Hide\",\"page\":\"Page 1 label NL\",\"question\":\"TextField name\",\"operation\":\"contains\",\"param\":\"Contains\"}]",
+            "operatorButton": {
+              "NL": ""
+            },
+            "operands": [
+              {
+                "id": 514948,
+                "type": "question",
+                "label": {
+                  "NL": "TextField 7 NL",
+                  "EN": "TextField 7 EN"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "TextField 7",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "textfield",
+                "validScript": "",
+                "elementId": "TextField_7_id",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              }
+            ]
+          },
+          {
+            "id": 514949,
+            "type": "operator",
+            "label": {
+              "NL": "Wizard condition Is not Hide NL",
+              "EN": "Wizard condition Is not Hide EN"
+            },
+            "description": "",
+            "name": "Wizard condition Is not Hide",
+            "operatorType": "condition",
+            "elementId": "wizard_condition_is_not_hide_id",
+            "className": "",
+            "condScript": "",
+            "condJson": "[{\"action\":\"Hide\",\"page\":\"Page 1 label NL\",\"question\":\"TextField name\",\"operation\":\"is not\",\"param\":\"Is not\"}]",
+            "operatorButton": {
+              "NL": ""
+            },
+            "operands": [
+              {
+                "id": 514950,
+                "type": "question",
+                "label": {
+                  "NL": "TextField 8 NL",
+                  "EN": "TextField 8 EN"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "TextField 8",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "textfield",
+                "validScript": "",
+                "elementId": "TextField_8_id",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              }
+            ]
+          },
+          {
+            "id": 514951,
+            "type": "operator",
+            "label": {
+              "NL": "Wizard condition Contains not Hide NL",
+              "EN": "Wizard condition Contains not Hide EN"
+            },
+            "description": "",
+            "name": "Wizard condition Contains not Hide",
+            "operatorType": "condition",
+            "elementId": "wizard_condition_contains_not_hide_id",
+            "className": "",
+            "condScript": "",
+            "condJson": "[{\"action\":\"Hide\",\"page\":\"Page 1 label NL\",\"question\":\"TextField name\",\"operation\":\"contains not\",\"param\":\"Contains not\"}]",
+            "operatorButton": {
+              "NL": ""
+            },
+            "operands": [
+              {
+                "id": 514952,
+                "type": "question",
+                "label": {
+                  "NL": "TextField 9 NL",
+                  "EN": "TextField 9 EN"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "TextField 9",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "textfield",
+                "validScript": "",
+                "elementId": "TextField_9_id",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              }
+            ]
+          },
+          {
+            "id": 514953,
+            "type": "operator",
+            "label": {
+              "NL": "Advanced condition NL",
+              "EN": "Advanced condition EN"
+            },
+            "description": "",
+            "name": "Advanced condition",
+            "operatorType": "condition",
+            "elementId": "advanced_condition_id",
+            "className": "",
+            "condScript": "if(values.get('TextField name')=='True')\r\n{return true;}",
+            "condJson": "{}",
+            "operatorButton": {
+              "NL": ""
+            },
+            "operands": [
+              {
+                "id": 514954,
+                "type": "question",
+                "label": {
+                  "NL": "TextField 10 NL",
+                  "EN": "TextField 10 EN"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "TextField 10",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "textfield",
+                "validScript": "",
+                "elementId": "TextField_10_id",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              }
+            ]
+          },
+          {
+            "id": 514955,
+            "type": "operator",
+            "label": {
+              "NL": "Wizard condition Show Or NL",
+              "EN": "Wizard condition Show Or EN"
+            },
+            "description": "",
+            "name": "Wizard condition Show Or",
+            "operatorType": "condition",
+            "elementId": "wizard_condition_show_or_id",
+            "className": "",
+            "condScript": "",
+            "condJson": "[{\"action\":\"Show\",\"page\":\"Page 1 label NL\",\"question\":\"TextField name\",\"operation\":\"is\",\"param\":\"Show Condition with Or 1\"},{\"action\":\"Or\",\"page\":\"Page 1 label NL\",\"question\":\"TextField name\",\"operation\":\"is\",\"param\":\"Show Condition with Or 2\"}]",
+            "operatorButton": {
+              "NL": ""
+            },
+            "operands": [
+              {
+                "id": 514956,
+                "type": "question",
+                "label": {
+                  "NL": "TextField 11 NL",
+                  "EN": "TextField 11 EN"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "TextField 11",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "textfield",
+                "validScript": "",
+                "elementId": "TextField_11_id",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              }
+            ]
+          },
+          {
+            "id": 514957,
+            "type": "operator",
+            "label": {
+              "NL": "Wizard condition Hide Or NL",
+              "EN": "Wizard condition Hide Or EN"
+            },
+            "description": "",
+            "name": "Wizard condition Hide Or",
+            "operatorType": "condition",
+            "elementId": "wizard_condition_hide_or_id",
+            "className": "",
+            "condScript": "",
+            "condJson": "[{\"action\":\"Hide\",\"page\":\"Page 1 label NL\",\"question\":\"TextField name\",\"operation\":\"is\",\"param\":\"Hide Condition with Or 1\"},{\"action\":\"Or\",\"page\":\"Page 1 label NL\",\"question\":\"TextField name\",\"operation\":\"is\",\"param\":\"Hide Condition with Or 2\"}]",
+            "operatorButton": {
+              "NL": ""
+            },
+            "operands": [
+              {
+                "id": 514958,
+                "type": "question",
+                "label": {
+                  "NL": "TextField 12 NL",
+                  "EN": "TextField 12 EN"
+                },
+                "description": {
+                  "NL": ""
+                },
+                "name": "TextField 12",
+                "subLabel": {
+                  "NL": ""
+                },
+                "inputType": "textfield",
+                "validScript": "",
+                "elementId": "TextField_12_id",
+                "className": "",
+                "hint": {
+                  "NL": ""
+                },
+                "tooltip": {
+                  "NL": ""
+                },
+                "labelVariables": {
+                  "NL": ""
+                },
+                "tags": "",
+                "defaultValue": {
+                  "NL": ""
+                },
+                "disabled": false,
+                "minDate": "",
+                "minDateType": "",
+                "minDateOffset": "",
+                "maxDate": "",
+                "maxDateType": "",
+                "maxDateOffset": "",
+                "dateType": "calendar",
+                "secured": false,
+                "customTemplate": "",
+                "varNames": "",
+                "varValues": "{}",
+                "mask": "",
+                "validations": [],
+                "deduceJson": "",
+                "deduceScript": "",
+                "unselectLabel": {
+                  "NL": ""
+                },
+                "options": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 514959,
+        "type": "section",
+        "label": {
+          "NL": "Page 3 label NL",
+          "EN": "Page 3 label EN"
+        },
+        "description": "",
+        "name": "Page 3 name",
+        "elementId": "",
+        "className": "",
+        "condScript": "",
+        "condJson": "[{\"action\":\"Show\",\"page\":\"Page 1 label NL\",\"question\":\"TextField name\",\"operation\":\"is\",\"param\":\"Show page 3 Is\"}]",
+        "tags": "",
+        "backButton": {
+          "NL": ""
+        },
+        "nextButton": {
+          "NL": ""
+        },
+        "submitButton": {
+          "NL": ""
+        },
+        "submitUrl": "",
+        "submitErrorUrl": "",
+        "pageUrl": "",
+        "questions": []
+      },
+      {
+        "id": 514960,
+        "type": "section",
+        "label": {
+          "NL": "Page 4 label NL",
+          "EN": "Page 4 label EN"
+        },
+        "description": "",
+        "name": "Page 4 name",
+        "elementId": "",
+        "className": "",
+        "condScript": "",
+        "condJson": "[{\"action\":\"Show\",\"page\":\"Page 1 label NL\",\"question\":\"TextField name\",\"operation\":\"contains\",\"param\":\"Show page 4 Contains\"}]",
+        "tags": "",
+        "backButton": {
+          "NL": ""
+        },
+        "nextButton": {
+          "NL": ""
+        },
+        "submitButton": {
+          "NL": ""
+        },
+        "submitUrl": "",
+        "submitErrorUrl": "",
+        "pageUrl": "",
+        "questions": []
+      },
+      {
+        "id": 514961,
+        "type": "section",
+        "label": {
+          "NL": "Page 5 label NL",
+          "EN": "Page 5 label EN"
+        },
+        "description": "",
+        "name": "Page 5 name",
+        "elementId": "",
+        "className": "",
+        "condScript": "",
+        "condJson": "[{\"action\":\"Show\",\"page\":\"Page 1 label NL\",\"question\":\"TextField name\",\"operation\":\"is not\",\"param\":\"Show page 5 Is not\"}]",
+        "tags": "",
+        "backButton": {
+          "NL": ""
+        },
+        "nextButton": {
+          "NL": ""
+        },
+        "submitButton": {
+          "NL": ""
+        },
+        "submitUrl": "",
+        "submitErrorUrl": "",
+        "pageUrl": "",
+        "questions": []
+      },
+      {
+        "id": 514962,
+        "type": "section",
+        "label": {
+          "NL": "Page 6 label NL",
+          "EN": "Page 6 label EN"
+        },
+        "description": "",
+        "name": "Page 6 name",
+        "elementId": "",
+        "className": "",
+        "condScript": "",
+        "condJson": "[{\"action\":\"Show\",\"page\":\"Page 1 label NL\",\"question\":\"TextField name\",\"operation\":\"contains not\",\"param\":\"Show page 6 Contains not\"}]",
+        "tags": "",
+        "backButton": {
+          "NL": ""
+        },
+        "nextButton": {
+          "NL": ""
+        },
+        "submitButton": {
+          "NL": ""
+        },
+        "submitUrl": "",
+        "submitErrorUrl": "",
+        "pageUrl": "",
+        "questions": []
+      },
+      {
+        "id": 514963,
+        "type": "section",
+        "label": {
+          "NL": "Page 7 label NL",
+          "EN": "Page 7 label EN"
+        },
+        "description": "",
+        "name": "Page 7 name",
+        "elementId": "",
+        "className": "",
+        "condScript": "",
+        "condJson": "[{\"action\":\"Show\",\"page\":\"Page 1 label NL\",\"question\":\"TextField name\",\"operation\":\"is\",\"param\":\"Show page 7 And 1\"},{\"action\":\"And\",\"page\":\"Page 1 label NL\",\"question\":\"TextField with Hint and Mask name\",\"operation\":\"is\",\"param\":\"Show page 7 And 2\"}]",
+        "tags": "",
+        "backButton": {
+          "NL": ""
+        },
+        "nextButton": {
+          "NL": ""
+        },
+        "submitButton": {
+          "NL": ""
+        },
+        "submitUrl": "",
+        "submitErrorUrl": "",
+        "pageUrl": "",
+        "questions": []
+      },
+      {
+        "id": 514964,
+        "type": "section",
+        "label": {
+          "NL": "Page 8 label NL",
+          "EN": "Page 8 label EN"
+        },
+        "description": "",
+        "name": "Page 8 name",
+        "elementId": "",
+        "className": "",
+        "condScript": "",
+        "condJson": "[{\"action\":\"Show\",\"page\":\"Page 1 label NL\",\"question\":\"TextField name\",\"operation\":\"is\",\"param\":\"Show page 8 Or 1\"},{\"action\":\"Or\",\"page\":\"Page 1 label NL\",\"question\":\"TextField name\",\"operation\":\"is\",\"param\":\"Show page 8 Or 2\"}]",
+        "tags": "",
+        "backButton": {
+          "NL": ""
+        },
+        "nextButton": {
+          "NL": ""
+        },
+        "submitButton": {
+          "NL": ""
+        },
+        "submitUrl": "",
+        "submitErrorUrl": "",
+        "pageUrl": "",
+        "questions": []
+      },
+      {
+        "id": 514965,
+        "type": "section",
+        "label": {
+          "NL": "Page 9 label NL",
+          "EN": "Page 9 label EN"
+        },
+        "description": "",
+        "name": "Page 9 name",
+        "elementId": "",
+        "className": "",
+        "condScript": "",
+        "condJson": "[{\"action\":\"Hide\",\"page\":\"Page 1 label NL\",\"question\":\"TextField name\",\"operation\":\"is\",\"param\":\"Hide page 9 Is\"}]",
+        "tags": "",
+        "backButton": {
+          "NL": ""
+        },
+        "nextButton": {
+          "NL": ""
+        },
+        "submitButton": {
+          "NL": ""
+        },
+        "submitUrl": "",
+        "submitErrorUrl": "",
+        "pageUrl": "",
+        "questions": []
+      },
+      {
+        "id": 514966,
+        "type": "section",
+        "label": {
+          "NL": "Page 10 label NL",
+          "EN": "Page 10 label EN"
+        },
+        "description": "",
+        "name": "Page 10 name",
+        "elementId": "",
+        "className": "",
+        "condScript": "",
+        "condJson": "[{\"action\":\"Hide\",\"page\":\"Page 1 label NL\",\"question\":\"TextField name\",\"operation\":\"contains\",\"param\":\"Hide page 10 Contains\"}]",
+        "tags": "",
+        "backButton": {
+          "NL": ""
+        },
+        "nextButton": {
+          "NL": ""
+        },
+        "submitButton": {
+          "NL": ""
+        },
+        "submitUrl": "",
+        "submitErrorUrl": "",
+        "pageUrl": "",
+        "questions": []
+      },
+      {
+        "id": 514967,
+        "type": "section",
+        "label": {
+          "NL": "Page 11 label NL",
+          "EN": "Page 11 label EN"
+        },
+        "description": "",
+        "name": "Page 11 name",
+        "elementId": "",
+        "className": "",
+        "condScript": "",
+        "condJson": "[{\"action\":\"Hide\",\"page\":\"Page 1 label NL\",\"question\":\"TextField name\",\"operation\":\"is not\",\"param\":\"Hide page 11 Is not\"}]",
+        "tags": "",
+        "backButton": {
+          "NL": ""
+        },
+        "nextButton": {
+          "NL": ""
+        },
+        "submitButton": {
+          "NL": ""
+        },
+        "submitUrl": "",
+        "submitErrorUrl": "",
+        "pageUrl": "",
+        "questions": []
+      },
+      {
+        "id": 514968,
+        "type": "section",
+        "label": {
+          "NL": "Page 12 label NL",
+          "EN": "Page 12 label EN"
+        },
+        "description": "",
+        "name": "Page 12 name",
+        "elementId": "",
+        "className": "",
+        "condScript": "",
+        "condJson": "[{\"action\":\"Hide\",\"page\":\"Page 1 label NL\",\"question\":\"TextField name\",\"operation\":\"contains not\",\"param\":\"Hide page 12 Contains not\"}]",
+        "tags": "",
+        "backButton": {
+          "NL": ""
+        },
+        "nextButton": {
+          "NL": ""
+        },
+        "submitButton": {
+          "NL": ""
+        },
+        "submitUrl": "",
+        "submitErrorUrl": "",
+        "pageUrl": "",
+        "questions": []
+      },
+      {
+        "id": 514969,
+        "type": "section",
+        "label": {
+          "NL": "Page 13 label NL",
+          "EN": "Page 13 label EN"
+        },
+        "description": "",
+        "name": "Page 13 name",
+        "elementId": "",
+        "className": "",
+        "condScript": "",
+        "condJson": "[{\"action\":\"Hide\",\"page\":\"Page 1 label NL\",\"question\":\"TextField name\",\"operation\":\"is\",\"param\":\"Hide page 13 And 1\"},{\"action\":\"And\",\"page\":\"Page 1 label NL\",\"question\":\"TextField with Hint and Mask name\",\"operation\":\"is\",\"param\":\"Hide page 13 And 2\"}]",
+        "tags": "",
+        "backButton": {
+          "NL": ""
+        },
+        "nextButton": {
+          "NL": ""
+        },
+        "submitButton": {
+          "NL": ""
+        },
+        "submitUrl": "",
+        "submitErrorUrl": "",
+        "pageUrl": "",
+        "questions": []
+      },
+      {
+        "id": 514970,
+        "type": "section",
+        "label": {
+          "NL": "Page 14 label NL",
+          "EN": "Page 14 label EN"
+        },
+        "description": "",
+        "name": "Page 14 name",
+        "elementId": "",
+        "className": "",
+        "condScript": "",
+        "condJson": "[{\"action\":\"Hide\",\"page\":\"Page 1 label NL\",\"question\":\"TextField name\",\"operation\":\"is\",\"param\":\"Hide page 14 Or 1\"},{\"action\":\"Or\",\"page\":\"Page 1 label NL\",\"question\":\"TextField name\",\"operation\":\"is\",\"param\":\"Hide page 14 Or 2\"}]",
+        "tags": "",
+        "backButton": {
+          "NL": ""
+        },
+        "nextButton": {
+          "NL": ""
+        },
+        "submitButton": {
+          "NL": ""
+        },
+        "submitUrl": "",
+        "submitErrorUrl": "",
+        "pageUrl": "",
+        "questions": []
+      },
+      {
+        "id": 514971,
+        "type": "section",
+        "label": {
+          "NL": "Page 15 label NL",
+          "EN": "Page 15 label EN"
+        },
+        "description": "",
+        "name": "Page 15 name",
+        "elementId": "",
+        "className": "",
+        "condScript": "if(values.get(\"TextField name\") == \"Show page 15\") {\r\n    return true; // Show page\r\n}\r\nreturn false; // Skip page",
+        "condJson": "",
+        "tags": "",
+        "backButton": {
+          "NL": ""
+        },
+        "nextButton": {
+          "NL": ""
+        },
+        "submitButton": {
+          "NL": ""
+        },
+        "submitUrl": "",
+        "submitErrorUrl": "",
+        "pageUrl": "",
+        "questions": []
+      },
+      {
+        "id": 514972,
+        "type": "section",
+        "label": {
+          "NL": "Page 16 label NL",
+          "EN": "Page 16 label EN"
+        },
+        "description": "",
+        "name": "Page 16 name",
+        "elementId": "",
+        "className": "",
+        "condScript": "if(values.get(\"TextField name\") == \"Show page 16 advanced\") {\r\nreturn true; // Show page\r\n}\r\nreturn false; // Skip page",
+        "condJson": "[{\"action\":\"Show\",\"page\":\"Page 1 label NL\",\"question\":\"TextField name\",\"operation\":\"is\",\"param\":\"Show page 16 wizard\"}]",
+        "tags": "",
+        "backButton": {
+          "NL": ""
+        },
+        "nextButton": {
+          "NL": ""
+        },
+        "submitButton": {
+          "NL": ""
+        },
+        "submitUrl": "",
+        "submitErrorUrl": "",
+        "pageUrl": "",
+        "questions": []
+      }
+    ],
+    "version": 0,
+    "token": "nalZ2arq"
+  }
+}
