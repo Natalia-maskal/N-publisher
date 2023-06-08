@@ -1,0 +1,2276 @@
+{
+  "hash": "srGqvQdH",
+  "name": "ATF Form for upload fields imported",
+  "description": "This form is for testing upload fields",
+  "tags": "",
+  "company": "1367",
+  "version": "0.01",
+  "theme": "",
+  "themeViewUri": "",
+  "serviceUri": "",
+  "servicePackageId": "",
+  "serviceTemplateName": "",
+  "prefillServiceTemplateName": "",
+  "jsDependencies": "[]",
+  "data": {
+    "id": 520334,
+    "type": "questionnaire",
+    "name": "ATF Form for upload fields imported",
+    "description": "This form is for testing upload fields",
+    "successContent": {
+      "NL": ""
+    },
+    "errorContent": {
+      "NL": ""
+    },
+    "submitUrl": "",
+    "submitErrorUrl": "",
+    "tags": "",
+    "backButton": {
+      "NL": ""
+    },
+    "nextButton": {
+      "NL": ""
+    },
+    "submitButton": {
+      "NL": ""
+    },
+    "locales": "NL,EN",
+    "defLocale": "NL",
+    "company": "ATF_Company",
+    "user": "ATF_Company_AdminAndUser",
+    "publishDate": "24-10-2022 11:22:53",
+    "publishVersion": "0.01",
+    "pages": [
+      {
+        "id": 520335,
+        "type": "section",
+        "label": {
+          "NL": "Page 1 label NL",
+          "EN": "Page 1 label EN"
+        },
+        "description": "",
+        "name": "Page 1 name",
+        "elementId": "",
+        "className": "",
+        "condScript": "",
+        "condJson": "",
+        "tags": "",
+        "backButton": {
+          "NL": ""
+        },
+        "nextButton": {
+          "NL": ""
+        },
+        "submitButton": {
+          "NL": ""
+        },
+        "submitUrl": "",
+        "submitErrorUrl": "",
+        "pageUrl": "",
+        "questions": [
+          {
+            "id": 520336,
+            "type": "question",
+            "label": {
+              "NL": "Upload field label general NL",
+              "EN": "Upload field label general EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Upload field name general",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "upload",
+            "validScript": "",
+            "elementId": "upload_field_general_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 520337,
+            "type": "question",
+            "label": {
+              "NL": "Upload field summary no label NL",
+              "EN": "Upload field summary no label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Upload field summary no name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "upload",
+            "validScript": "",
+            "elementId": "upload_field_summary_no_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "summary no",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 520338,
+            "type": "question",
+            "label": {
+              "NL": "Upload field render no label NL",
+              "EN": "Upload field render no label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Upload field render no name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "upload",
+            "validScript": "",
+            "elementId": "upload_field_render_no_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "render no",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 520339,
+            "type": "question",
+            "label": {
+              "NL": "Upload field elementID and className NL",
+              "EN": "Upload field elementID and className EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Upload field elementID and className",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "upload",
+            "validScript": "",
+            "elementId": "upload_field_id",
+            "className": "upload_field_class",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 520340,
+            "type": "question",
+            "label": {
+              "NL": "Upload field with Hint NL",
+              "EN": "Upload field with Hint EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Upload field with Hint",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "upload",
+            "validScript": "",
+            "elementId": "upload_field_with_hint_id",
+            "className": "",
+            "hint": {
+              "NL": "Add your file here NL",
+              "EN": "Add your file here EN"
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 520341,
+            "type": "question",
+            "label": {
+              "NL": "Upload field with Default value NL",
+              "EN": "Upload field with Default value EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Upload field with Default value",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "upload",
+            "validScript": "",
+            "elementId": "upload_field_with_default_value_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "test"
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 520342,
+            "type": "question",
+            "label": {
+              "NL": "Upload field Disabled NL",
+              "EN": "Upload field Disabled EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Upload field Disabled",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "upload",
+            "validScript": "",
+            "elementId": "upload_field_disabled_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": true,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 520343,
+            "type": "question",
+            "label": {
+              "NL": "Upload field with Tooltip NL",
+              "EN": "Upload field with Tooltip EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Upload field with Tooltip",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "upload",
+            "validScript": "",
+            "elementId": "upload_field_with_tooltip_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": "<!doctype html>\n<html>\n<head>\n<title>Tooltip title for upload field</title>\n</head>\n<body>\nAfter putting pointer to this upload field you will see this tooltip! NL\n</body>\n</html>",
+              "EN": "<!doctype html>\n<html>\n<head>\n<title>Tooltip title for upload field</title>\n</head>\n<body>\nAfter putting pointer to this upload field you will see this tooltip! EN\n</body>\n</html>"
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 520344,
+            "type": "question",
+            "label": {
+              "NL": "Upload field with Validation script NL",
+              "EN": "Upload field with Validation script EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Upload field with Validation script",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "upload",
+            "validScript": "if (!value ) { return [ERR_D:\"Dit veld is verplicht\"] }",
+            "elementId": "upload_field_with_validation_script_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [
+              {
+                "args": "",
+                "script": "def list = value;\r\ndef emptyFieldsIndex = [];\r\ndef classes= [];\r\n\r\nlist.eachWithIndex { item, index ->\r\n        if (item == '' || item == ' ') {\r\n            emptyFieldsIndex.add(index.toString())    \r\n        }\r\n        classes.add(item.getClass())\r\n    \r\n}\r\n\r\nif (!emptyFieldsIndex.isEmpty()) {\r\n    return [ERR_D: \"One of the upload fields is empty.\"]   \r\n}"
+              }
+            ],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 520345,
+            "type": "question",
+            "label": {
+              "NL": "Upload field with Validation (content) NL",
+              "EN": "Upload field with Validation (content) EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Upload field with Validation (content)",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "upload",
+            "validScript": "if (!value ) { return [ERR_D:\"Dit veld is verplicht\"] }",
+            "elementId": "upload_field_with_validation_content_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          }
+        ]
+      },
+      {
+        "id": 520346,
+        "type": "section",
+        "label": {
+          "NL": "Page 2 label NL",
+          "EN": "Page 2 label EN"
+        },
+        "description": "",
+        "name": "Page 2 name",
+        "elementId": "",
+        "className": "",
+        "condScript": "",
+        "condJson": "",
+        "tags": "",
+        "backButton": {
+          "NL": ""
+        },
+        "nextButton": {
+          "NL": ""
+        },
+        "submitButton": {
+          "NL": ""
+        },
+        "submitUrl": "",
+        "submitErrorUrl": "",
+        "pageUrl": "",
+        "questions": [
+          {
+            "id": 520347,
+            "type": "question",
+            "label": {
+              "NL": "Repeat Upload label general NL",
+              "EN": "Repeat Upload label general EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Repeat Upload name general",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "repeatupload",
+            "validScript": "",
+            "elementId": "repeat_upload_general_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 520348,
+            "type": "question",
+            "label": {
+              "NL": "Repeat upload summary no label NL",
+              "EN": "Repeat upload summary no label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Repeat upload summary no name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "repeatupload",
+            "validScript": "",
+            "elementId": "repeat_upload_summary_no_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "summary no",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 520349,
+            "type": "question",
+            "label": {
+              "NL": "Repeat upload render no label NL",
+              "EN": "Repeat upload render no label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Repeat upload render no name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "repeatupload",
+            "validScript": "",
+            "elementId": "repeat_upload_render_no_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "render no",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 520350,
+            "type": "question",
+            "label": {
+              "NL": "Repeat upload elementID and className NL",
+              "EN": "Repeat upload elementID and className EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Repeat upload elementID and className",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "repeatupload",
+            "validScript": "",
+            "elementId": "repeat_upload_id",
+            "className": "repeat_upload_class",
+            "hint": {
+              "NL": "",
+              "EN": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "",
+              "EN": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": "",
+              "EN": ""
+            },
+            "options": []
+          },
+          {
+            "id": 520351,
+            "type": "question",
+            "label": {
+              "NL": "Repeat upload with Hint NL",
+              "EN": "Repeat upload with Hint EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Repeat upload with Hint",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "repeatupload",
+            "validScript": "",
+            "elementId": "repeat_upload_with_hint_id",
+            "className": "",
+            "hint": {
+              "NL": "Add your file here NL",
+              "EN": "Add your file here EN"
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 520352,
+            "type": "question",
+            "label": {
+              "NL": "Repeat upload with Default value NL",
+              "EN": "Repeat upload with Default value EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Repeat upload with Default value",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "repeatupload",
+            "validScript": "",
+            "elementId": "repeat_upload_with_default_value_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "test"
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 520353,
+            "type": "question",
+            "label": {
+              "NL": "Repeat upload Disabled NL",
+              "EN": "Repeat upload Disabled EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Repeat upload Disabled",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "repeatupload",
+            "validScript": "",
+            "elementId": "repeat_upload_disabled_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": true,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 520354,
+            "type": "question",
+            "label": {
+              "NL": "Repeat upload with Tooltip NL",
+              "EN": "Repeat upload with Tooltip EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Repeat upload with Tooltip",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "repeatupload",
+            "validScript": "",
+            "elementId": "repeat_upload_with_tooltip_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": "<!doctype html>\n<html>\n<head>\n<title>Tooltip title for repeat upload</title>\n</head>\n<body>\nAfter putting pointer to this repeat upload field you will see this tooltip! NL\n</body>\n</html>",
+              "EN": "<!doctype html>\n<html>\n<head>\n<title>Tooltip title for repeat upload</title>\n</head>\n<body>\nAfter putting pointer to this repeat upload field you will see this tooltip! EN\n</body>\n</html>"
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 520355,
+            "type": "question",
+            "label": {
+              "NL": "Repeat upload with Validation script NL",
+              "EN": "Repeat upload with Validation script EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Repeat upload with Validation script",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "repeatupload",
+            "validScript": "",
+            "elementId": "repeat_upload_with_validation_script_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [
+              {
+                "args": "",
+                "script": "def list = value;\r\ndef emptyFieldsIndex = [];\r\ndef classes= [];\r\n\r\nlist.eachWithIndex { item, index ->\r\n        if (item == '' || item == ' ') {\r\n            emptyFieldsIndex.add(index.toString())    \r\n        }\r\n        classes.add(item.getClass())\r\n    \r\n}\r\n\r\nif (!emptyFieldsIndex.isEmpty()) {\r\n    return [ERR_D: \"One of the upload fields is empty.\"]   \r\n}"
+              }
+            ],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 520356,
+            "type": "question",
+            "label": {
+              "NL": "Repeat upload with Validation (content) NL",
+              "EN": "Repeat upload with Validation (content) EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "RepeatUploadWithValidation",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "repeatupload",
+            "validScript": "def list = value;\r\ndef emptyFieldsIndex = [];\r\ndef classes= [];\r\n\r\nlist.eachWithIndex { item, index ->\r\n        if (item == '' || item == ' ') {\r\n            emptyFieldsIndex.add(index.toString())    \r\n        }\r\n        classes.add(item.getClass())\r\n    \r\n}\r\n\r\nif (!emptyFieldsIndex.isEmpty()) {\r\n    return [ERR_D: \"One of the upload fields is empty.\"]   \r\n}",
+            "elementId": "repeat_upload_with_validation_content_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          }
+        ]
+      },
+      {
+        "id": 520357,
+        "type": "section",
+        "label": {
+          "NL": "Page 3 label NL",
+          "EN": "Page 3 label EN"
+        },
+        "description": "",
+        "name": "Page 3 name",
+        "elementId": "",
+        "className": "",
+        "condScript": "",
+        "condJson": "",
+        "tags": "",
+        "backButton": {
+          "NL": ""
+        },
+        "nextButton": {
+          "NL": ""
+        },
+        "submitButton": {
+          "NL": ""
+        },
+        "submitUrl": "",
+        "submitErrorUrl": "",
+        "pageUrl": "",
+        "questions": [
+          {
+            "id": 520358,
+            "type": "question",
+            "label": {
+              "NL": "Async upload label general NL",
+              "EN": "Async upload label general EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Async upload label general",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "asyncupload",
+            "validScript": "",
+            "elementId": "async_upload_label_general_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 520359,
+            "type": "question",
+            "label": {
+              "NL": "Async upload summary no label NL",
+              "EN": "Async upload summary no label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Async upload summary no name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "asyncupload",
+            "validScript": "",
+            "elementId": "async_upload_summary_no_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "summary no",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 520360,
+            "type": "question",
+            "label": {
+              "NL": "Async upload render no label NL",
+              "EN": "Async upload render no label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Async upload render no name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "asyncupload",
+            "validScript": "",
+            "elementId": "async_upload_render_no_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "render no",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 520361,
+            "type": "question",
+            "label": {
+              "NL": "Async upload elementID and className NL",
+              "EN": "Async upload elementID and className EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Async upload elementID and className",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "asyncupload",
+            "validScript": "",
+            "elementId": "async_upload_id",
+            "className": "async_upload_class",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 520362,
+            "type": "question",
+            "label": {
+              "NL": "Async upload with Hint NL",
+              "EN": "Async upload with Hint EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Async upload with Hint",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "asyncupload",
+            "validScript": "",
+            "elementId": "async_upload_with_hint_id",
+            "className": "",
+            "hint": {
+              "NL": "Add your file here NL",
+              "EN": "Add your file here EN"
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 520363,
+            "type": "question",
+            "label": {
+              "NL": "Async upload with Default value NL",
+              "EN": "Async upload with Default value EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Async upload with Default value",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "asyncupload",
+            "validScript": "",
+            "elementId": "async_upload_with_default_value_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "test"
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 520364,
+            "type": "question",
+            "label": {
+              "NL": "Async upload Disabled NL",
+              "EN": "Async upload Disabled EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Async upload Disabled",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "asyncupload",
+            "validScript": "",
+            "elementId": "async_upload_disabled_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": true,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 520365,
+            "type": "question",
+            "label": {
+              "NL": "Async upload with Tooltip NL",
+              "EN": "Async upload with Tooltip EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Async upload with Tooltip",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "asyncupload",
+            "validScript": "",
+            "elementId": "async_upload_with_tooltip_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": "<!doctype html>\n<html>\n<head>\n<title>Tooltip title for Async upload</title>\n</head>\n<body>\nAfter putting pointer to this Async upload field you will see this tooltip! NL\n</body>\n</html>",
+              "EN": "<!doctype html>\n<html>\n<head>\n<title>Tooltip title for Async upload</title>\n</head>\n<body>\nAfter putting pointer to this Async upload field you will see this tooltip! EN\n</body>\n</html>"
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 520366,
+            "type": "question",
+            "label": {
+              "NL": "Async upload with Validation script NL",
+              "EN": "Async upload with Validation script EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Async upload with Validation script",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "asyncupload",
+            "validScript": "if (!value ) { return [ERR_D:\"Dit veld is verplicht\"] }",
+            "elementId": "async_upload_with_validation_script_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [
+              {
+                "args": "",
+                "script": "def list = value;\r\ndef emptyFieldsIndex = [];\r\ndef classes= [];\r\n\r\nlist.eachWithIndex { item, index ->\r\n        if (item == '' || item == ' ') {\r\n            emptyFieldsIndex.add(index.toString())    \r\n        }\r\n        classes.add(item.getClass())\r\n    \r\n}\r\n\r\nif (!emptyFieldsIndex.isEmpty()) {\r\n    return [ERR_D: \"One of the upload fields is empty.\"]   \r\n}"
+              }
+            ],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 520367,
+            "type": "question",
+            "label": {
+              "NL": "Async upload with Validation (content) NL",
+              "EN": "Async upload with Validation (content) EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Async upload with Validation content",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "asyncupload",
+            "validScript": "if (!value ) { return [ERR_D:\"Dit veld is verplicht\"] }",
+            "elementId": "async_upload_with_validation_content_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          }
+        ]
+      },
+      {
+        "id": 520368,
+        "type": "section",
+        "label": {
+          "NL": "Page 4 label NL",
+          "EN": "Page 4 label EN"
+        },
+        "description": "",
+        "name": "Page 4 name",
+        "elementId": "",
+        "className": "",
+        "condScript": "",
+        "condJson": "",
+        "tags": "",
+        "backButton": {
+          "NL": ""
+        },
+        "nextButton": {
+          "NL": ""
+        },
+        "submitButton": {
+          "NL": ""
+        },
+        "submitUrl": "",
+        "submitErrorUrl": "",
+        "pageUrl": "",
+        "questions": [
+          {
+            "id": 520369,
+            "type": "question",
+            "label": {
+              "NL": "Async multi upload label general NL",
+              "EN": "Async multi upload label general EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Async multi upload label general",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "asyncmultiupload",
+            "validScript": "",
+            "elementId": "async_multi_upload_general_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 520370,
+            "type": "question",
+            "label": {
+              "NL": "Async multi upload summary no label NL",
+              "EN": "Async multi upload summary no label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Async multi upload summary no name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "asyncmultiupload",
+            "validScript": "",
+            "elementId": "async_multi_upload_summary_no_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "summary no",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 520371,
+            "type": "question",
+            "label": {
+              "NL": "Async multi upload render no label NL",
+              "EN": "Async multi upload render no label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Async multi upload render no name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "asyncmultiupload",
+            "validScript": "",
+            "elementId": "async_multi_upload_render_no_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "render no",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 520372,
+            "type": "question",
+            "label": {
+              "NL": "Async multi upload elementID and className NL",
+              "EN": "Async multi upload elementID and className EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Async multi upload elementID and className",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "asyncmultiupload",
+            "validScript": "",
+            "elementId": "async_multi_upload_id",
+            "className": "async_multi_upload_class",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 520373,
+            "type": "question",
+            "label": {
+              "NL": "Async multi upload with Hint NL",
+              "EN": "Async multi upload with Hint EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Async multi upload with Hint",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "asyncmultiupload",
+            "validScript": "",
+            "elementId": "async_multi_upload_with_hint_id",
+            "className": "",
+            "hint": {
+              "NL": "Add your file here NL",
+              "EN": "Add your file here EN"
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 520374,
+            "type": "question",
+            "label": {
+              "NL": "Async multi upload with Default value NL",
+              "EN": "Async multi upload with Default value EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Async multi upload with Default value",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "asyncmultiupload",
+            "validScript": "",
+            "elementId": "async_multi_upload_with_default_value_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "test"
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 520375,
+            "type": "question",
+            "label": {
+              "NL": "Async multi upload Disabled NL",
+              "EN": "Async multi upload Disabled EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Async multi upload Disabled",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "asyncmultiupload",
+            "validScript": "",
+            "elementId": "async_multi_upload_disabled_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": true,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 520376,
+            "type": "question",
+            "label": {
+              "NL": "Async multi upload with Tooltip NL",
+              "EN": "Async multi upload with Tooltip EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Async multi upload with Tooltip",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "asyncmultiupload",
+            "validScript": "",
+            "elementId": "async_multi_upload_with_tooltip_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": "<!doctype html>\n<html>\n<head>\n<title>Tooltip title for Async multi upload</title>\n</head>\n<body>\nAfter putting pointer to this Async multi upload field you will see this tooltip! NL\n</body>\n</html>",
+              "EN": "<!doctype html>\n<html>\n<head>\n<title>Tooltip title for Async multi upload</title>\n</head>\n<body>\nAfter putting pointer to this Async multi upload field you will see this tooltip! EN\n</body>\n</html>"
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 520377,
+            "type": "question",
+            "label": {
+              "NL": "Async multi upload with Validation script NL",
+              "EN": "Async multi upload with Validation script EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Async multi upload with Validation script",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "asyncmultiupload",
+            "validScript": "if (!value ) { return [ERR_D:\"Dit veld is verplicht\"] }",
+            "elementId": "async_multi_upload_with_validation_script_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [
+              {
+                "args": "",
+                "script": "def list = value;\r\ndef emptyFieldsIndex = [];\r\ndef classes= [];\r\n\r\nlist.eachWithIndex { item, index ->\r\n        if (item == '' || item == ' ') {\r\n            emptyFieldsIndex.add(index.toString())    \r\n        }\r\n        classes.add(item.getClass())\r\n    \r\n}\r\n\r\nif (!emptyFieldsIndex.isEmpty()) {\r\n    return [ERR_D: \"One of the upload fields is empty.\"]   \r\n}"
+              }
+            ],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 520378,
+            "type": "question",
+            "label": {
+              "NL": "Async multi upload with Validation (content) NL",
+              "EN": "Async multi upload with Validation (content) EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Async multi upload with Validation content",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "asyncmultiupload",
+            "validScript": "def list = value;\r\ndef emptyFieldsIndex = [];\r\ndef classes= [];\r\n\r\nlist.eachWithIndex { item, index ->\r\n        if (item == '' || item == ' ') {\r\n            emptyFieldsIndex.add(index.toString())    \r\n        }\r\n        classes.add(item.getClass())\r\n    \r\n}\r\n\r\nif (!emptyFieldsIndex.isEmpty()) {\r\n    return [ERR_D: \"One of the upload fields is empty.\"]   \r\n}",
+            "elementId": "async_multi_upload_with_validation_content_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          }
+        ]
+      }
+    ],
+    "version": 0,
+    "token": "nalZ2arq"
+  }
+}
