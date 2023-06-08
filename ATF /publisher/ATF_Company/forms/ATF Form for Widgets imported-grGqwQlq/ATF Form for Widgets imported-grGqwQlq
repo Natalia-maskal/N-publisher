@@ -1,0 +1,600 @@
+{
+  "hash": "grGqwQlq",
+  "name": "ATF Form for Widgets imported",
+  "description": "This form is for testing widgets",
+  "tags": "",
+  "company": "1367",
+  "version": "0.01",
+  "theme": "",
+  "themeViewUri": "",
+  "serviceUri": "",
+  "servicePackageId": "",
+  "serviceTemplateName": "",
+  "prefillServiceTemplateName": "",
+  "jsDependencies": "[]",
+  "data": {
+    "id": 514360,
+    "type": "questionnaire",
+    "name": "ATF Form for Widgets imported",
+    "description": "This form is for testing widgets",
+    "successContent": {
+      "NL": ""
+    },
+    "errorContent": {
+      "NL": ""
+    },
+    "submitUrl": "",
+    "submitErrorUrl": "",
+    "tags": "",
+    "backButton": {
+      "NL": ""
+    },
+    "nextButton": {
+      "NL": ""
+    },
+    "submitButton": {
+      "NL": ""
+    },
+    "locales": "NL,EN",
+    "defLocale": "NL",
+    "company": "ATF_Company",
+    "user": "ATF_Company_AdminAndUser",
+    "publishDate": "22-07-2022 12:27:37",
+    "publishVersion": "0.01",
+    "pages": [
+      {
+        "id": 514361,
+        "type": "section",
+        "label": {
+          "NL": "Page 1 label NL",
+          "EN": "Page 1 label EN"
+        },
+        "description": "",
+        "name": "Page 1 name",
+        "elementId": "",
+        "className": "",
+        "condScript": "",
+        "condJson": "",
+        "tags": "",
+        "backButton": {
+          "NL": ""
+        },
+        "nextButton": {
+          "NL": ""
+        },
+        "submitButton": {
+          "NL": ""
+        },
+        "submitUrl": "",
+        "submitErrorUrl": "",
+        "pageUrl": "",
+        "questions": [
+          {
+            "id": 514362,
+            "type": "question",
+            "label": {
+              "NL": "Widget label general NL",
+              "EN": "Widget label general EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Widget name general",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "widget",
+            "validScript": "",
+            "elementId": "Widget_general_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "Widget_template_file_general",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 514363,
+            "type": "question",
+            "label": {
+              "NL": "Widget no summary label NL",
+              "EN": "Widget no summary label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Widget no summary name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "widget",
+            "validScript": "",
+            "elementId": "Widget_no_summary_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "summary no",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "Widget_template_no_summary",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 514364,
+            "type": "question",
+            "label": {
+              "NL": "Widget no render label NL",
+              "EN": "Widget no render label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Widget no render name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "widget",
+            "validScript": "",
+            "elementId": "Widget_no_render_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "render no",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "Widget_template_no_render",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 514365,
+            "type": "question",
+            "label": {
+              "NL": "Widget elementID and class label NL",
+              "EN": "Widget elementID and class label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Widget elementID and class name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "widget",
+            "validScript": "",
+            "elementId": "Widget_elementID",
+            "className": "Widget_class",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "Widget_template_element_id_class",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 514366,
+            "type": "question",
+            "label": {
+              "NL": "Widget with Default value label NL",
+              "EN": "Widget with Default value label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Widget with Default value name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "widget",
+            "validScript": "",
+            "elementId": "Widget_with_Default_value_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": "This is default value for widget NL"
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "Widget_template_default_value",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 514367,
+            "type": "question",
+            "label": {
+              "NL": "Widget with Disabled checkbox label NL",
+              "EN": "Widget with Disabled checkbox label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Widget with Disabled checkbox name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "widget",
+            "validScript": "",
+            "elementId": "Widget_with_Disabled_checkbox_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": true,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "Widget_template_disabled",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 514368,
+            "type": "question",
+            "label": {
+              "NL": "Widget with Tooltip label NL",
+              "EN": "Widget with Tooltip label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Widget with Tooltip name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "widget",
+            "validScript": "",
+            "elementId": "Widget_with_Tooltip_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": "<!doctype html>\n<html>\n<head>\n<title>Tooltip title for widget</title>\n</head>\n<body>\nAfter putting pointer to this widget you will see this tooltip! NL\n</body>\n</html>",
+              "EN": "After putting pointer to this widget you will see this tooltip! EN"
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "Widget_template_tooltip",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 514369,
+            "type": "question",
+            "label": {
+              "NL": "Widget with Variables fields label NL",
+              "EN": "Widget with Variables fields label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Widget with Variables fields name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "widget",
+            "validScript": "",
+            "elementId": "Widget_with_Variables_fields_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "WidgetForTestingVariables",
+            "varNames": "",
+            "varValues": "{\"test1\":\"message 1\",\"test2\":\"message 2, message 3\",\"json\":\"\"}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 514370,
+            "type": "question",
+            "label": {
+              "NL": "Widget with Variables JSON label NL",
+              "EN": "Widget with Variables JSON label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Widget with Variables JSON name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "widget",
+            "validScript": "",
+            "elementId": "Widget_with_Variables_JSON_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "WidgetForTestingVariablesJSON",
+            "varNames": "",
+            "varValues": "{\"json\":\"{\\n   \\\"test1\\\":\\\"message from JSON variables (first level of variables)\\\",\\n   \\\"test2\\\":{\\n       \\\"secondLevel\\\":{\\n             \\\"thirdLevel\\\":\\\"Message from JSON variables (third level of variables)\\\"\\n        }\\n   }\\n}\"}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 514371,
+            "type": "question",
+            "label": {
+              "NL": "Widget with Labels label NL",
+              "EN": "Widget with Labels label EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Widget with Labels name",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "widget",
+            "validScript": "",
+            "elementId": "Widget_with_Labels_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": "[{\"val\":\"widget_value_NL\",\"name\":\"Labels_for_Widget\"},{\"val\":\"widget_value_for_remove_NL\",\"name\":\"Labels_for_remove\"}]",
+              "EN": "[{\"val\":\"widget_value_EN\",\"name\":\"Labels_for_Widget\"},{\"val\":\"widget_value_for_remove_EN\",\"name\":\"Labels_for_remove\"}]"
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "Widget_template_labels",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          }
+        ]
+      }
+    ],
+    "version": 0,
+    "token": "nalZ2arq"
+  }
+}
