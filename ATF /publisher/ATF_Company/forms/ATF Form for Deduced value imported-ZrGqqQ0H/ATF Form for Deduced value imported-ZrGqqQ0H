@@ -1,0 +1,783 @@
+{
+  "hash": "ZrGqqQ0H",
+  "name": "ATF Form for Deduced value imported",
+  "description": "This form is for testing deduced value",
+  "tags": "",
+  "company": "1367",
+  "version": "0.01",
+  "theme": "",
+  "themeViewUri": "",
+  "serviceUri": "https://test-integrator.formsengine.io/mit/trainman/ucTOza6Rh6iCnDxt/MyCubesTest",
+  "servicePackageId": "",
+  "serviceTemplateName": "atf_deduced_value_test",
+  "prefillServiceTemplateName": "",
+  "jsDependencies": "[]",
+  "data": {
+    "id": 514201,
+    "type": "questionnaire",
+    "name": "ATF Form for Deduced value imported",
+    "description": "This form is for testing deduced value",
+    "successContent": {
+      "NL": ""
+    },
+    "errorContent": {
+      "NL": ""
+    },
+    "submitUrl": "",
+    "submitErrorUrl": "",
+    "tags": "",
+    "backButton": {
+      "NL": ""
+    },
+    "nextButton": {
+      "NL": ""
+    },
+    "submitButton": {
+      "NL": ""
+    },
+    "locales": "NL,EN",
+    "defLocale": "NL",
+    "company": "ATF_Company",
+    "user": "ATF_Company_AdminAndUser",
+    "publishDate": "22-07-2022 12:24:37",
+    "publishVersion": "0.01",
+    "pages": [
+      {
+        "id": 514202,
+        "type": "section",
+        "label": {
+          "NL": "Page 1 label NL",
+          "EN": "Page 1 label EN"
+        },
+        "description": "",
+        "name": "Page 1 name",
+        "elementId": "",
+        "className": "",
+        "condScript": "",
+        "condJson": "",
+        "tags": "",
+        "backButton": {
+          "NL": ""
+        },
+        "nextButton": {
+          "NL": ""
+        },
+        "submitButton": {
+          "NL": ""
+        },
+        "submitUrl": "",
+        "submitErrorUrl": "",
+        "pageUrl": "",
+        "questions": [
+          {
+            "id": 514203,
+            "type": "question",
+            "label": {
+              "NL": "TextField label general NL",
+              "EN": "TextField label general EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "TextField name general",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "textfield",
+            "validScript": "",
+            "elementId": "TextField_general_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 514204,
+            "type": "question",
+            "label": {
+              "NL": "Static deduction is NL",
+              "EN": "Static deduction is EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Static deduction is",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "deduce",
+            "validScript": "",
+            "elementId": "static_deduction _is_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "[{\"value\":\"5\",\"page\":\"Page 1 label NL\",\"question\":\"TextField name general\",\"operation\":\"is\",\"param\":\"static5is\"},{\"value\":\"10\",\"page\":\"Page 1 label NL\",\"question\":\"TextField name general\",\"operation\":\"is\",\"param\":\"static10is\"}]",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 514205,
+            "type": "question",
+            "label": {
+              "NL": "Static deduction is not NL",
+              "EN": "Static deduction is not EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Static deduction is not",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "deduce",
+            "validScript": "",
+            "elementId": "static_deduction_is_not_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "[{\"value\":\"5\",\"page\":\"Page 1 label NL\",\"question\":\"TextField name general\",\"operation\":\"is not\",\"param\":\"static5isnot\"},{\"value\":\"10\",\"page\":\"Page 1 label NL\",\"question\":\"TextField name general\",\"operation\":\"is not\",\"param\":\"static10isnot\"}]",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 514206,
+            "type": "question",
+            "label": {
+              "NL": "Static deduction contains NL",
+              "EN": "Static deduction contains EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Static deduction contains",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "deduce",
+            "validScript": "",
+            "elementId": "static_deduction_contains_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "[{\"value\":\"5\",\"page\":\"Page 1 label NL\",\"question\":\"TextField name general\",\"operation\":\"contains\",\"param\":\"static5contains\"},{\"value\":\"10\",\"page\":\"Page 1 label NL\",\"question\":\"TextField name general\",\"operation\":\"contains\",\"param\":\"static10contains\"}]",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 514207,
+            "type": "question",
+            "label": {
+              "NL": "Static deduction contains not NL",
+              "EN": "Static deduction contains not EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Static deduction contains not",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "deduce",
+            "validScript": "",
+            "elementId": "static_deduction_contains_not_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "[{\"value\":\"5\",\"page\":\"Page 1 label NL\",\"question\":\"TextField name general\",\"operation\":\"contains not\",\"param\":\"static5containsNot\"},{\"value\":\"10\",\"page\":\"Page 1 label NL\",\"question\":\"TextField name general\",\"operation\":\"contains not\",\"param\":\"static10containsNot\"}]",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 514208,
+            "type": "question",
+            "label": {
+              "NL": "Static deduction Advanced NL",
+              "EN": "Static deduction Advanced EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Static deduction Advanced",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "deduce",
+            "validScript": "",
+            "elementId": "static_deduction_advanced_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "[]",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 514209,
+            "type": "question",
+            "label": {
+              "NL": "Dynamic deduction contains NL",
+              "EN": "Dynamic deduction contains EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Dynamic deduction contains",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "deduce",
+            "validScript": "",
+            "elementId": "dynamic_deduction_contains_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "[{\"value\":\"+5\",\"page\":\"Page 1 label NL\",\"question\":\"TextField name general\",\"operation\":\"contains\",\"param\":\"dynamic+5contains\"},{\"value\":\"-2\",\"page\":\"Page 1 label NL\",\"question\":\"TextField name general\",\"operation\":\"contains\",\"param\":\"dynamic-2contains\"}]",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 514210,
+            "type": "question",
+            "label": {
+              "NL": "Dynamic deduction contains not NL",
+              "EN": "Dynamic deduction contains not EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Dynamic deduction contains not",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "deduce",
+            "validScript": "",
+            "elementId": "dynamic_deduction_contains_not_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "[{\"value\":\"+5\",\"page\":\"Page 1 label NL\",\"question\":\"TextField name general\",\"operation\":\"contains not\",\"param\":\"dynamic+5containsNot\"},{\"value\":\"-2\",\"page\":\"Page 1 label NL\",\"question\":\"TextField name general\",\"operation\":\"contains not\",\"param\":\"dynamic-2containsNot\"}]",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 514211,
+            "type": "question",
+            "label": {
+              "NL": "Dynamic deduction Advanced NL",
+              "EN": "Dynamic deduction Advanced EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Dynamic deduction Advanced",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "deduce",
+            "validScript": "",
+            "elementId": "dynamic_deduction_advanced_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "[]",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 514212,
+            "type": "question",
+            "label": {
+              "NL": "Static deduction Advanced for update NL",
+              "EN": "Static deduction Advanced for update EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Static deduction Advanced for update",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "deduce",
+            "validScript": "",
+            "elementId": "static_deduction_advanced_for_update_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "[]",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 514213,
+            "type": "question",
+            "label": {
+              "NL": "Deduced value elementID and className NL",
+              "EN": "Deduced value elementID and className EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Deduced value elementID and className",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "deduce",
+            "validScript": "",
+            "elementId": "deduced_value_id",
+            "className": "deduced_value_class",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "[{\"value\":\"5\",\"page\":\"Page 1 label NL\",\"question\":\"TextField name general\",\"operation\":\"contains\",\"param\":\"element_id_class\"}]",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          }
+        ]
+      },
+      {
+        "id": 514214,
+        "type": "section",
+        "label": {
+          "NL": "Page 2 label NL",
+          "EN": "Page 2 label EN"
+        },
+        "description": "",
+        "name": "Page 2 name",
+        "elementId": "",
+        "className": "",
+        "condScript": "",
+        "condJson": "",
+        "tags": "",
+        "backButton": {
+          "NL": ""
+        },
+        "nextButton": {
+          "NL": ""
+        },
+        "submitButton": {
+          "NL": ""
+        },
+        "submitUrl": "",
+        "submitErrorUrl": "",
+        "pageUrl": "",
+        "questions": [
+          {
+            "id": 514215,
+            "type": "question",
+            "label": {
+              "NL": "TextArea label general NL",
+              "EN": "TextArea label general EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "TextArea name general",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "textarea",
+            "validScript": "",
+            "elementId": "textarea_general_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 514216,
+            "type": "question",
+            "label": {
+              "NL": "Static deduction for update NL",
+              "EN": "Static deduction for update EN"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Static deduction for update",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "deduce",
+            "validScript": "",
+            "elementId": "static_deduction_for_update_id",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "[{\"value\":\"5\",\"page\":\"Page 2 label NL\",\"question\":\"TextArea name general\",\"operation\":\"contains\",\"param\":\"forUpdate5\"}]",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          }
+        ]
+      }
+    ],
+    "version": 0,
+    "token": "nalZ2arq"
+  }
+}
