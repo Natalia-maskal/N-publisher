@@ -1,0 +1,360 @@
+{
+  "hash": "laGqoQdH",
+  "name": "Form_for_Dependency",
+  "description": "",
+  "tags": "",
+  "company": "1367",
+  "version": "0.01",
+  "theme": "",
+  "themeViewUri": "",
+  "serviceUri": "",
+  "servicePackageId": "",
+  "serviceTemplateName": "",
+  "prefillServiceTemplateName": "",
+  "jsDependencies": "[\"https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.0/knockout-min.js\",\"https://www.jqueryscript.net/demo/A-Funny-jQuery-Plugin-To-Enable-The-Konami-Code-On-Your-Website/jQuery_konami_code.js\",\"https://cdnjs.cloudflare.com/ajax/libs/Faker/3.1.0/locales/en_US/faker.en_US.min.js\"]",
+  "data": {
+    "id": 519310,
+    "type": "questionnaire",
+    "name": "Form_for_Dependency",
+    "description": "",
+    "successContent": {
+      "NL": ""
+    },
+    "errorContent": {
+      "NL": ""
+    },
+    "submitUrl": "",
+    "submitErrorUrl": "",
+    "tags": "",
+    "backButton": {
+      "NL": ""
+    },
+    "nextButton": {
+      "NL": ""
+    },
+    "submitButton": {
+      "NL": ""
+    },
+    "locales": "NL",
+    "defLocale": "NL",
+    "company": "ATF_Company",
+    "user": "ATF_Company_AdminAndUser",
+    "publishDate": "23-09-2022 05:30:12",
+    "publishVersion": "0.01",
+    "pages": [
+      {
+        "id": 519311,
+        "type": "section",
+        "label": {
+          "NL": "page1"
+        },
+        "description": "",
+        "name": "page1",
+        "elementId": "",
+        "className": "",
+        "condScript": "",
+        "condJson": "",
+        "tags": "",
+        "backButton": {
+          "NL": ""
+        },
+        "nextButton": {
+          "NL": ""
+        },
+        "submitButton": {
+          "NL": ""
+        },
+        "submitUrl": "",
+        "submitErrorUrl": "",
+        "pageUrl": "",
+        "questions": [
+          {
+            "id": 519312,
+            "type": "question",
+            "label": {
+              "NL": "TextField"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "TextField",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "textfield",
+            "validScript": "",
+            "elementId": "TextField",
+            "className": "repTextField",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519313,
+            "type": "question",
+            "label": {
+              "NL": "TextField1"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "TextField1",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "textfield",
+            "validScript": "",
+            "elementId": "TextField1",
+            "className": "repTextField",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519314,
+            "type": "question",
+            "label": {
+              "NL": "Dependency"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Dependency",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "widget",
+            "validScript": "",
+            "elementId": "",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "render",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          },
+          {
+            "id": 519315,
+            "type": "question",
+            "label": {
+              "NL": "Label"
+            },
+            "description": {
+              "NL": "text bla bla bla"
+            },
+            "name": "Label",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "textlabel",
+            "validScript": "",
+            "elementId": "Label",
+            "className": "baffle2",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          }
+        ]
+      },
+      {
+        "id": 519316,
+        "type": "section",
+        "label": {
+          "NL": "p2"
+        },
+        "description": "",
+        "name": "p2",
+        "elementId": "",
+        "className": "",
+        "condScript": "",
+        "condJson": "",
+        "tags": "",
+        "backButton": {
+          "NL": ""
+        },
+        "nextButton": {
+          "NL": ""
+        },
+        "submitButton": {
+          "NL": ""
+        },
+        "submitUrl": "",
+        "submitErrorUrl": "",
+        "pageUrl": "",
+        "questions": [
+          {
+            "id": 519317,
+            "type": "question",
+            "label": {
+              "NL": "txt2"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "txt2",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "textfield",
+            "validScript": "",
+            "elementId": "txt2",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          }
+        ]
+      }
+    ],
+    "version": 0,
+    "token": "nalZ2arq"
+  }
+}
