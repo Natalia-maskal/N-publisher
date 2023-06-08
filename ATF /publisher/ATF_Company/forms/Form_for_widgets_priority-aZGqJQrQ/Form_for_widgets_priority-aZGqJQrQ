@@ -1,0 +1,262 @@
+{
+  "hash": "aZGqJQrQ",
+  "name": "Form_for_widgets_priority",
+  "description": "This form is for testing widgets priority",
+  "tags": "",
+  "company": "1367",
+  "version": "0.01",
+  "theme": "3071",
+  "themeViewUri": "publisher/view",
+  "serviceUri": "",
+  "servicePackageId": "",
+  "serviceTemplateName": "",
+  "prefillServiceTemplateName": "",
+  "jsDependencies": "[]",
+  "data": {
+    "id": 515007,
+    "type": "questionnaire",
+    "name": "Form_for_widgets_priority",
+    "description": "This form is for testing widgets priority",
+    "successContent": {
+      "NL": ""
+    },
+    "errorContent": {
+      "NL": ""
+    },
+    "submitUrl": "",
+    "submitErrorUrl": "",
+    "tags": "",
+    "backButton": {
+      "NL": ""
+    },
+    "nextButton": {
+      "NL": ""
+    },
+    "submitButton": {
+      "NL": ""
+    },
+    "locales": "NL,EN",
+    "defLocale": "NL",
+    "company": "ATF_Company",
+    "user": "ATF_Company_AdminAndUser",
+    "publishDate": "22-07-2022 12:40:06",
+    "publishVersion": "0.01",
+    "pages": [
+      {
+        "id": 515008,
+        "type": "section",
+        "label": {
+          "NL": "Page 1 label NL",
+          "EN": "Page 1 label EN"
+        },
+        "description": "",
+        "name": "Page 1 name",
+        "elementId": "",
+        "className": "",
+        "condScript": "",
+        "condJson": "",
+        "tags": "",
+        "backButton": {
+          "NL": ""
+        },
+        "nextButton": {
+          "NL": ""
+        },
+        "submitButton": {
+          "NL": ""
+        },
+        "submitUrl": "",
+        "submitErrorUrl": "",
+        "pageUrl": "",
+        "questions": [
+          {
+            "id": 515009,
+            "type": "question",
+            "label": {
+              "NL": "test_widget_priority"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "test_widget_priority",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "widget",
+            "validScript": "",
+            "elementId": "",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": ""
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "widgetPriority",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          }
+        ]
+      },
+      {
+        "id": 515010,
+        "type": "question",
+        "label": {
+          "NL": "widget on form level"
+        },
+        "description": {
+          "NL": ""
+        },
+        "name": "widget on form level",
+        "subLabel": {
+          "NL": ""
+        },
+        "inputType": "formwidget",
+        "validScript": "",
+        "elementId": "",
+        "className": "",
+        "hint": {
+          "NL": ""
+        },
+        "tooltip": {
+          "NL": ""
+        },
+        "labelVariables": {
+          "NL": ""
+        },
+        "tags": "",
+        "defaultValue": {
+          "NL": ""
+        },
+        "disabled": false,
+        "minDate": "",
+        "minDateType": "",
+        "minDateOffset": "",
+        "maxDate": "",
+        "maxDateType": "",
+        "maxDateOffset": "",
+        "dateType": "calendar",
+        "secured": false,
+        "customTemplate": "widgetPriority",
+        "varNames": "",
+        "varValues": "{}",
+        "mask": "",
+        "validations": [],
+        "deduceJson": "",
+        "deduceScript": "",
+        "unselectLabel": {
+          "NL": ""
+        },
+        "options": []
+      },
+      {
+        "id": 515011,
+        "type": "section",
+        "label": {
+          "NL": "Page 2 label NL",
+          "EN": "Page 2 label EN"
+        },
+        "description": "",
+        "name": "Page 2 name",
+        "elementId": "",
+        "className": "",
+        "condScript": "",
+        "condJson": "",
+        "tags": "",
+        "backButton": {
+          "NL": ""
+        },
+        "nextButton": {
+          "NL": ""
+        },
+        "submitButton": {
+          "NL": ""
+        },
+        "submitUrl": "",
+        "submitErrorUrl": "",
+        "pageUrl": "",
+        "questions": [
+          {
+            "id": 515012,
+            "type": "question",
+            "label": {
+              "NL": "",
+              "EN": "Test labels"
+            },
+            "description": {
+              "NL": ""
+            },
+            "name": "Test labels",
+            "subLabel": {
+              "NL": ""
+            },
+            "inputType": "widget",
+            "validScript": "",
+            "elementId": "",
+            "className": "",
+            "hint": {
+              "NL": ""
+            },
+            "tooltip": {
+              "NL": ""
+            },
+            "labelVariables": {
+              "NL": "[{\"val\":\"Hello_NL\",\"name\":\"labelName\"}]",
+              "EN": "[{\"val\":\"hello_EN\",\"name\":\"labelName\"}]"
+            },
+            "tags": "",
+            "defaultValue": {
+              "NL": ""
+            },
+            "disabled": false,
+            "minDate": "",
+            "minDateType": "",
+            "minDateOffset": "",
+            "maxDate": "",
+            "maxDateType": "",
+            "maxDateOffset": "",
+            "dateType": "calendar",
+            "secured": false,
+            "customTemplate": "widgetForTestLabels",
+            "varNames": "",
+            "varValues": "{}",
+            "mask": "",
+            "validations": [],
+            "deduceJson": "",
+            "deduceScript": "",
+            "unselectLabel": {
+              "NL": ""
+            },
+            "options": []
+          }
+        ]
+      }
+    ],
+    "version": 0,
+    "token": "nalZ2arq"
+  }
+}
